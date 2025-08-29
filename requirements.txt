@@ -1,0 +1,67 @@
+# Core Web Framework and Extensions
+Flask
+Flask-SQLAlchemy
+Flask-WTF
+Flask-Caching
+Flask-Mail
+Flask-Login
+Werkzeug
+
+# ORM and Database
+SQLAlchemy
+psycopg2-binary
+
+# Templates
+Jinja2
+MarkupSafe
+itsdangerous
+
+# Requests and Web
+requests
+beautifulsoup4
+aiohttp
+asyncio
+urllib3
+lxml
+parse
+
+# Web Scraping and Automation
+scrapy
+selenium
+webdriver-manager
+
+# Browser Automation Enhancer
+nest_asyncio
+
+# Payment Gateway
+razorpay
+
+# Time and Date
+pytz
+python-dateutil
+uuid
+
+# Imaging
+Pillow
+
+# PDF Generation
+reportlab
+
+# Environment and Deployment
+python-dotenv
+gunicorn
+cryptography
+marshmallow
+
+# Data Analysis
+numpy
+pandas
+Markdown
+
+# Testing
+pytest
+
+# Code Quality Tools
+black
+flake8
+APScheduler
