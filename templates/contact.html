@@ -1,0 +1,979 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Web Analyzer Pro</title>
+    <meta name="description" content="Contact Web Analyzer Pro for support, questions, or feedback. Get in touch with our team for any assistance you need.">
+    
+    <!-- External Resources -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Core Variables */
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --primary-light: #6366f1;
+            --secondary: #0ea5e9;
+            --accent: #38bdf8;
+            --background: #f8fafc;
+            --surface: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --border-radius: 0.75rem;
+            --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 0.25rem 0.375rem -0.0625rem rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 0.625rem 0.9375rem -0.1875rem rgba(0, 0, 0, 0.15);
+            --shadow-xl: 0 1.25rem 1.5rem -0.3125rem rgba(0, 0, 0, 0.25);
+            --transition-speed: 0.3s;
+        }
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            transition: all var(--transition-speed) ease;
+        }
+
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.5rem;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: rgba(79, 70, 229, 0.1);
+            color: var(--primary);
+        }
+
+        /* Header Section */
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 8rem 0 4rem 0;
+            margin-top: 70px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grain)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #ffffff, #e2e8f0);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 4rem 0;
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Contact Cards */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .contact-info-card {
+            background: var(--surface);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-speed) ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .contact-form-card {
+            background: var(--surface);
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-speed) ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-form-card:hover {
+            box-shadow: var(--shadow-xl);
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 1rem 1.25rem;
+            border: 2px solid #e2e8f0;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: all 0.2s ease;
+            background: white;
+            font-family: inherit;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.1875rem rgba(79, 70, 229, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .form-input::placeholder {
+            color: #9ca3af;
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .char-counter {
+            text-align: right;
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-top: 0.25rem;
+        }
+
+        /* Button Styles */
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: white;
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        /* Contact Info Items */
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: rgba(79, 70, 229, 0.02);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary);
+            transition: all 0.2s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(79, 70, 229, 0.05);
+            transform: translateX(5px);
+        }
+
+        .contact-icon {
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1.5rem;
+            flex-shrink: 0;
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-icon i {
+            color: white;
+            font-size: 1.25rem;
+        }
+
+        .contact-details h3 {
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+            font-size: 1.125rem;
+        }
+
+        .contact-details p {
+            color: var(--text-light);
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Social Links */
+        .social-section {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-link {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+        }
+
+        .social-link:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: var(--shadow-lg);
+            color: white;
+        }
+
+        /* Alert Styles */
+        .alert {
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 500;
+            animation: slideIn 0.3s ease;
+        }
+
+        .alert-success {
+            background-color: rgba(16, 185, 129, 0.1);
+            border-color: var(--success);
+            color: #047857;
+        }
+
+        .alert-danger {
+            background-color: rgba(239, 68, 68, 0.1);
+            border-color: var(--danger);
+            color: #dc2626;
+        }
+
+        .alert-warning {
+            background-color: rgba(245, 158, 11, 0.1);
+            border-color: var(--warning);
+            color: #d97706;
+        }
+
+        .alert-info {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-color: #3b82f6;
+            color: #1e40af;
+        }
+
+        /* Loading States */
+        .loading {
+            position: relative;
+        }
+
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin: -10px 0 0 -10px;
+            border: 2px solid transparent;
+            border-top: 2px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .contact-form-card,
+            .contact-info-card {
+                padding: 1.5rem;
+            }
+
+            .social-links {
+                gap: 0.75rem;
+            }
+
+            .contact-item {
+                padding: 1rem;
+            }
+
+            .contact-icon {
+                width: 3rem;
+                height: 3rem;
+                margin-right: 1rem;
+            }
+
+            .hero-section {
+                padding: 6rem 0 3rem 0;
+            }
+
+            .main-content {
+                padding: 2rem 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 0 0.75rem;
+            }
+
+            .btn {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.875rem;
+            }
+        }
+
+        /* Form Validation Styles */
+        .form-input.invalid {
+            border-color: var(--danger);
+            box-shadow: 0 0 0 0.1875rem rgba(239, 68, 68, 0.1);
+        }
+
+        .form-input.valid {
+            border-color: var(--success);
+            box-shadow: 0 0 0 0.1875rem rgba(16, 185, 129, 0.1);
+        }
+
+        .error-message {
+            color: var(--danger);
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+            animation: slideIn 0.2s ease;
+        }
+
+        /* Success Animation */
+        .success-checkmark {
+            display: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--success);
+            margin: 0 auto 1rem;
+            position: relative;
+        }
+
+        .success-checkmark.show {
+            display: block;
+            animation: scaleIn 0.3s ease;
+        }
+
+        .success-checkmark::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="flex items-center justify-between py-4">
+                <a href="{{ url_for('landing') }}" class="navbar-brand">
+                    Fourth Dimension
+                </a>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="{{ url_for('landing') }}" class="nav-link">Home</a>
+                    <a href="{{ url_for('about') }}" class="nav-link">About</a>
+                    <a href="{{ url_for('contact') }}" class="nav-link">Contact</a>
+                    {% if session.get('user_id') %}
+                        <a href="{{ url_for('index') }}" class="nav-link">Dashboard</a>
+                        <a href="{{ url_for('logout') }}" class="nav-link">Logout</a>
+                    {% else %}
+                        <a href="{{ url_for('login') }}" class="nav-link">Login</a>
+                        <a href="{{ url_for('signup') }}" class="nav-link">Sign Up</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Get In Touch</h1>
+                <p class="hero-subtitle">
+                    Have questions about our web analysis tools? Need support? We're here to help you optimize your website's performance.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <!-- Flash Messages -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                      {% if message.startswith('contact:') %}
+                        <div class="alert alert-{{ category }}" role="alert">
+                            {% if category == 'success' %}
+                                <i class="fas fa-check-circle"></i>
+                            {% elif category == 'danger' %}
+                                <i class="fas fa-exclamation-circle"></i>
+                            {% elif category == 'warning' %}
+                                <i class="fas fa-exclamation-triangle"></i>
+                            {% elif category == 'info' %}
+                                <i class="fas fa-info-circle"></i>
+                            {% endif %}
+                            {{ message[8:] }}
+                        </div>
+                      {% endif %}  
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <div class="contact-grid animate-fade-in">
+                <!-- Contact Information -->
+                <div class="contact-info-card">
+                    <h2 class="text-2xl font-bold mb-6 text-center" style="background: linear-gradient(45deg, var(--primary), var(--secondary)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        Contact Information
+                    </h2>
+                    
+                    <div class="space-y-4">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Our Location</h3>
+                                <p>123 Web Analysis Street<br>Digital City, Tech Valley 10010<br>United States</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <p>support@webanalyzerpro.com<br>info@webanalyzerpro.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p>+1 (800) 123-4567<br>Mon - Fri, 9:00 AM - 6:00 PM EST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <h2 class="text-2xl font-bold mb-6 text-center" style="background: linear-gradient(45deg, var(--primary), var(--secondary)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        Send us a Message
+                    </h2>
+                    
+                    <div class="success-checkmark" id="successCheckmark"></div>
+                    
+                    <form method="POST" action="{{ url_for('contact') }}" id="contactForm" novalidate>
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token }}"/>
+                        
+                        <div class="form-group">
+                            <label for="name" class="form-label">
+                                <i class="fas fa-user mr-2"></i>Your Name *
+                            </label>
+                            <input type="text" 
+                                   id="name" 
+                                   name="name" 
+                                   class="form-input" 
+                                   placeholder="Enter your full name"
+                                   value="{{ name or '' }}"
+                                   required 
+                                   minlength="2"
+                                   maxlength="100">
+                            <div class="error-message" id="nameError">Please enter your full name (2-100 characters)</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                <i class="fas fa-envelope mr-2"></i>Email Address *
+                            </label>
+                            <input type="email" 
+                                   id="email" 
+                                   name="email" 
+                                   class="form-input" 
+                                   placeholder="Enter your email address"
+                                   value="{{ email or '' }}"
+                                   required 
+                                   maxlength="255">
+                            <div class="error-message" id="emailError">Please enter a valid email address</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">
+                                <i class="fas fa-comment mr-2"></i>Your Message *
+                            </label>
+                            <textarea id="message" 
+                                      name="message" 
+                                      class="form-input form-textarea" 
+                                      placeholder="Tell us how we can help you..."
+                                      required
+                                      minlength="10"
+                                      maxlength="5000">{{ message or '' }}</textarea>
+                            <div class="char-counter">
+                                <span id="charCount">0</span>/5000 characters
+                            </div>
+                            <div class="error-message" id="messageError">Please enter a message (10-5000 characters)</div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary w-full" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span id="submitText">Send Message</span>
+                        </button>
+                        
+                        <p class="text-center text-sm text-gray-500 mt-4">
+                            <i class="fas fa-shield-alt mr-1"></i>
+                            We typically respond within 24 hours during business days.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            const submitBtn = document.getElementById('submitBtn');
+            const submitText = document.getElementById('submitText');
+            const successCheckmark = document.getElementById('successCheckmark');
+            
+            // Form fields
+            const nameField = document.getElementById('name');
+            const emailField = document.getElementById('email');
+            const messageField = document.getElementById('message');
+            const charCount = document.getElementById('charCount');
+            
+            // Character counter
+            messageField.addEventListener('input', function() {
+                const length = this.value.length;
+                charCount.textContent = length;
+                
+                // Change color based on length
+                if (length > 4500) {
+                    charCount.style.color = 'var(--danger)';
+                } else if (length > 4000) {
+                    charCount.style.color = 'var(--warning)';
+                } else {
+                    charCount.style.color = 'var(--text-light)';
+                }
+            });
+            
+            // Initialize character count
+            charCount.textContent = messageField.value.length;
+            
+            // Real-time validation
+            function validateField(field, errorElement, validator) {
+                field.addEventListener('blur', function() {
+                    if (validator(this.value)) {
+                        this.classList.remove('invalid');
+                        this.classList.add('valid');
+                        errorElement.classList.remove('show');
+                    } else {
+                        this.classList.remove('valid');
+                        this.classList.add('invalid');
+                        errorElement.classList.add('show');
+                    }
+                });
+                
+                field.addEventListener('input', function() {
+                    if (this.classList.contains('invalid') && validator(this.value)) {
+                        this.classList.remove('invalid');
+                        this.classList.add('valid');
+                        errorElement.classList.remove('show');
+                    }
+                });
+            }
+            
+            // Validators
+            validateField(nameField, document.getElementById('nameError'), 
+                value => value.trim().length >= 2 && value.trim().length <= 100);
+            
+            validateField(emailField, document.getElementById('emailError'), 
+                value => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value));
+            
+            validateField(messageField, document.getElementById('messageError'), 
+                value => value.trim().length >= 10 && value.trim().length <= 5000);
+            
+            // Form submission
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Validate all fields
+                const isNameValid = nameField.value.trim().length >= 2 && nameField.value.trim().length <= 100;
+                const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailField.value);
+                const isMessageValid = messageField.value.trim().length >= 10 && messageField.value.trim().length <= 5000;
+                
+                // Show errors for invalid fields
+                if (!isNameValid) {
+                    nameField.classList.add('invalid');
+                    document.getElementById('nameError').classList.add('show');
+                }
+                
+                if (!isEmailValid) {
+                    emailField.classList.add('invalid');
+                    document.getElementById('emailError').classList.add('show');
+                }
+                
+                if (!isMessageValid) {
+                    messageField.classList.add('invalid');
+                    document.getElementById('messageError').classList.add('show');
+                }
+                
+                // If all valid, submit
+                if (isNameValid && isEmailValid && isMessageValid) {
+                    submitForm();
+                } else {
+                    // Scroll to first error
+                    const firstError = document.querySelector('.form-input.invalid');
+                    if (firstError) {
+                        firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        firstError.focus();
+                    }
+                }
+            });
+            
+            function submitForm() {
+                // Show loading state
+                submitBtn.disabled = true;
+                submitBtn.classList.add('loading');
+                submitText.textContent = 'Sending...';
+                
+                // Create form data
+                const formData = new FormData(form);
+                
+                // Submit via fetch
+                fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest'
+                    }
+                })
+                .then(response => response.text())
+                .then(html => {
+                    // Check if submission was successful by looking for success message
+                    if (html.includes('alert-success') || html.includes('sent successfully')) {
+                        showSuccess();
+                    } else {
+                        // If there are errors, reload the page to show them
+                        window.location.reload();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    showError('An error occurred while sending your message. Please try again.');
+                })
+                .finally(() => {
+                    // Reset button state
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('loading');
+                    submitText.textContent = 'Send Message';
+                });
+            }
+            
+            function showSuccess() {
+                // Show success animation
+                successCheckmark.classList.add('show');
+                
+                // Clear form
+                form.reset();
+                charCount.textContent = '0';
+                
+                // Remove validation classes
+                document.querySelectorAll('.form-input').forEach(input => {
+                    input.classList.remove('valid', 'invalid');
+                });
+                
+                // Show success message
+                showAlert('Thank you for your message! We will get back to you soon.', 'success');
+                
+                // Hide checkmark after 3 seconds
+                setTimeout(() => {
+                    successCheckmark.classList.remove('show');
+                }, 3000);
+            }
+            
+            function showError(message) {
+                showAlert(message, 'danger');
+            }
+            
+            function showAlert(message, type) {
+                // Remove existing alerts
+                document.querySelectorAll('.alert').forEach(alert => alert.remove());
+                
+                // Create new alert
+                const alert = document.createElement('div');
+                alert.className = `alert alert-${type}`;
+                alert.innerHTML = `
+                    <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-circle'}"></i>
+                    ${message}
+                `;
+                
+                // Insert at top of main content
+                const mainContent = document.querySelector('.main-content .container');
+                mainContent.insertBefore(alert, mainContent.firstChild);
+                
+                // Auto-remove after 5 seconds
+                setTimeout(() => {
+                    alert.remove();
+                }, 5000);
+                
+                // Scroll to alert
+                alert.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            
+            // Add animation to cards on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationDelay = '0s';
+                        entry.target.classList.add('animate-fade-in');
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe cards
+            document.querySelectorAll('.contact-info-card, .contact-form-card').forEach(card => {
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>

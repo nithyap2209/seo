@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - Fourth Dimension Web Analyzer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #6366f1;
+            --accent-color: #ec4899;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --border-color: #e5e7eb;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+        
+        .help-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+        
+        .help-nav {
+            background: #f8fafc;
+            border-right: 1px solid var(--border-color);
+            min-height: calc(100vh - 200px);
+            padding: 2rem 1rem;
+            position: sticky;
+            top: 20px;
+        }
+        
+        .help-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .help-nav li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .help-nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        
+        .help-nav a:hover,
+        .help-nav a.active {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .help-content {
+            padding: 2rem;
+        }
+        
+        .help-section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 100px;
+        }
+        
+        .help-section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .help-section h3 {
+            color: var(--secondary-color);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .token-cost {
+            background: #fef3c7;
+            color: #92400e;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .step-list {
+            counter-reset: step-counter;
+        }
+        
+        .step-list li {
+            counter-increment: step-counter;
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .step-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: var(--primary-color);
+            color: white;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        
+        .alert-custom {
+            border-left: 4px solid var(--primary-color);
+            background: #f0f9ff;
+            border-radius: 0 6px 6px 0;
+        }
+        
+        .pricing-table {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .pricing-table th {
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem;
+        }
+        
+        .pricing-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .code-block {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 6px;
+            padding: 1rem;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.875rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="help-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-3">
+                        <i class="fas fa-question-circle me-3"></i>
+                        Help Center
+                    </h1>
+                    <p class="lead mb-4">
+                        Comprehensive guide to using Fourth Dimension Web Analyzer
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#getting-started" class="btn btn-light btn-lg">
+                            <i class="fas fa-play me-2"></i>Getting Started
+                        </a>
+                        <a href="#tools" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-tools me-2"></i>Analysis Tools
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Navigation Sidebar -->
+            <div class="col-lg-3">
+                <nav class="help-nav">
+                    <ul>
+                        <li><a href="#getting-started" class="nav-link">Getting Started</a></li>
+                        <li><a href="#account-management" class="nav-link">Account Management</a></li>
+                        <li><a href="#subscriptions" class="nav-link">Subscriptions & Tokens</a></li>
+                        <li><a href="#tools" class="nav-link">Analysis Tools</a></li>
+                        <li><a href="#url-search" class="nav-link">• URL Search</a></li>
+                        <li><a href="#keyword-search" class="nav-link">• Keyword Analysis</a></li>
+                        <li><a href="#image-search" class="nav-link">• Image Analysis</a></li>
+                        <li><a href="#heading-search" class="nav-link">• Heading Analysis</a></li>
+                        <li><a href="#meta-search" class="nav-link">• Meta Tag Analysis</a></li>
+                        <li><a href="#site-structure" class="nav-link">• Site Structure</a></li>
+                        <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                        <li><a href="#search-history" class="nav-link">Search History</a></li>
+                        <li><a href="#exports" class="nav-link">Exports & Downloads</a></li>
+                        <li><a href="#troubleshooting" class="nav-link">Troubleshooting</a></li>
+                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-lg-9">
+                <div class="help-content">
+                    <!-- Getting Started -->
+                    <section id="getting-started" class="help-section">
+                        <h2><i class="fas fa-rocket me-2"></i>Getting Started</h2>
+                        
+                        <div class="alert alert-custom">
+                            <h5><i class="fas fa-info-circle me-2"></i>Welcome to Fourth Dimension Web Analyzer</h5>
+                            <p class="mb-0">Our platform helps you analyze websites comprehensively with tools for link analysis, SEO optimization, content analysis, and more.</p>
+                        </div>
+
+                        <h3>System Requirements</h3>
+                        <ul>
+                            <li>Modern web browser (Chrome, Firefox, Safari, Edge)</li>
+                            <li>Stable internet connection</li>
+                            <li>JavaScript enabled</li>
+                            <li>Valid email address for account creation</li>
+                        </ul>
+
+                        <h3>First Steps</h3>
+                        <ol class="step-list">
+                            <li><strong>Sign Up:</strong> Create your account with a valid email address</li>
+                            <li><strong>Verify Email:</strong> Check your inbox and click the verification link</li>
+                            <li><strong>Choose Subscription:</strong> Select a plan that fits your needs</li>
+                            <li><strong>Start Analyzing:</strong> Begin using our powerful analysis tools</li>
+                        </ol>
+                    </section>
+
+                    <!-- Account Management -->
+                    <section id="account-management" class="help-section">
+                        <h2><i class="fas fa-user-cog me-2"></i>Account Management</h2>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-edit"></i>
+                            </div>
+                            <h4>Profile Management</h4>
+                            <p>Update your personal information, change passwords, and manage account settings.</p>
+                            <ul>
+                                <li>Navigate to <strong>Profile</strong> from the main menu</li>
+                                <li>Update your name and other details</li>
+                                <li>Change password (requires current password)</li>
+                                <li>View account activity and login history</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-key"></i>
+                            </div>
+                            <h4>Password Security</h4>
+                            <p>Your password must meet these requirements:</p>
+                            <ul>
+                                <li>At least 8 characters long</li>
+                                <li>Contains uppercase and lowercase letters</li>
+                                <li>Includes at least one number</li>
+                                <li>Has at least one special character (!@#$%^&*)</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-envelope"></i>   
+                            </div>
+                            <h4>Email Verification</h4>
+                            <p>If you haven't verified your email or need to resend verification:</p>
+                            <ol>
+                                <li>Go to the login page</li>
+                                <li>Click "Resend Verification"</li>
+                                <li>Enter your email address</li>
+                                <li>Check your inbox for the verification link</li>
+                            </ol>
+                        </div>
+                    </section>
+
+                    <!-- Subscriptions & Tokens -->
+                    <section id="subscriptions" class="help-section">
+                        <h2><i class="fas fa-credit-card me-2"></i>Subscriptions & Token System</h2>
+                        
+                        <div class="alert alert-custom">
+                            <h5><i class="fas fa-coins me-2"></i>Understanding Tokens</h5>
+                            <p class="mb-0">Our platform uses a token-based system. Each analysis tool consumes a certain number of tokens. You get daily tokens with your subscription, and can purchase additional tokens when needed.</p>
+                        </div>
+
+                        <h3>Subscription Plans</h3>
+                        <p>Visit the <strong>Subscriptions</strong> page to view available plans and features. Each plan includes:</p>
+                        <ul>
+                            <li>Daily token allocation</li>
+                            <li>Access to all analysis tools</li>
+                            <li>Search history and exports</li>
+                            <li>Email support</li>
+                        </ul>
+
+                        <h3>Token Usage by Tool</h3>
+                        <div class="table-responsive pricing-table">
+                            <table class="table table-borderless mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Analysis Tool</th>
+                                        <th>Token Cost</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>URL Search</strong></td>
+                                        <td><span class="token-cost">1 Token</span></td>
+                                        <td>Basic link analysis and robots.txt checking</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Keyword Analysis</strong></td>
+                                        <td><span class="token-cost">3 Tokens</span></td>
+                                        <td>In-depth keyword density and content analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Image Analysis</strong></td>
+                                        <td><span class="token-cost">2 Tokens</span></td>
+                                        <td>Extract and analyze all images from a page</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Heading Analysis</strong></td>
+                                        <td><span class="token-cost">1 Token</span></td>
+                                        <td>H1-H6 tag structure analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Meta Tag Analysis</strong></td>
+                                        <td><span class="token-cost">2 Tokens</span></td>
+                                        <td>SEO meta tags and schema markup analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Site Structure</strong></td>
+                                        <td><span class="token-cost">2 Tokens</span></td>
+                                        <td>Comprehensive website crawling and visualization</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h3>Purchasing Additional Tokens</h3>
+                        <ol class="step-list">
+                            <li>Go to your <strong>Subscriptions</strong> page</li>
+                            <li>Click <strong>"Purchase Additional Tokens"</strong></li>
+                            <li>Select the number of tokens you need</li>
+                            <li>Complete payment via Razorpay</li>
+                            <li>Tokens are immediately added to your account</li>
+                        </ol>
+
+                        <div class="alert alert-warning">
+                            <h6><i class="fas fa-clock me-2"></i>Token Expiration</h6>
+                            <p class="mb-0">Additional tokens expire when your current subscription ends. Daily tokens reset every 24 hours.</p>
+                        </div>
+                    </section>
+
+                    <!-- Analysis Tools -->
+                    <section id="tools" class="help-section">
+                        <h2><i class="fas fa-tools me-2"></i>Analysis Tools Overview</h2>
+                        
+                        <p>Fourth Dimension provides six powerful analysis tools to help you understand and optimize websites:</p>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="feature-card">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                    <h5>URL Search <span class="token-cost">1 Token</span></h5>
+                                    <p>Analyze all links on a webpage, categorize internal vs external links, and respect robots.txt rules.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="feature-card">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                    <h5>Keyword Analysis <span class="token-cost">3 Tokens</span></h5>
+                                    <p>Extract text content and analyze keyword density, frequency, and distribution across the page.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="feature-card">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-image"></i>
+                                    </div>
+                                    <h5>Image Analysis <span class="token-cost">2 Tokens</span></h5>
+                                    <p>Find all images on a page with details like file size, dimensions, alt text, and optimization status.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="feature-card">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-heading"></i>
+                                    </div>
+                                    <h5>Heading Analysis <span class="token-cost">1 Token</span></h5>
+                                    <p>Examine the heading structure (H1-H6) for SEO optimization and content hierarchy.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="feature-card">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-tags"></i>
+                                    </div>
+                                    <h5>Meta Tag Analysis <span class="token-cost">2 Tokens</span></h5>
+                                    <p>Extract and analyze meta tags, Open Graph data, and JSON-LD schema markup.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="feature-card">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-sitemap"></i>
+                                    </div>
+                                    <h5>Site Structure <span class="token-cost">2 Tokens</span></h5>
+                                    <p>Comprehensive website crawling with visual representation of site architecture.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Individual Tool Guides -->
+                    <section id="url-search" class="help-section">
+                        <h2><i class="fas fa-link me-2"></i>URL Search Tool</h2>
+                        
+                        <p>The URL Search tool analyzes all links found on a webpage and categorizes them as internal or external links.</p>
+
+                        <h3>How to Use</h3>
+                        <ol class="step-list">
+                            <li>Navigate to <strong>URL Search</strong> from the main menu</li>
+                            <li>Enter the website URL you want to analyze</li>
+                            <li>Choose whether to respect robots.txt rules</li>
+                            <li>Click <strong>Analyze</strong> to start the process</li>
+                            <li>Review the results showing internal and external links</li>
+                        </ol>
+
+                        <h3>Understanding Results</h3>
+                        <ul>
+                            <li><strong>Home Links:</strong> Internal links within the same domain</li>
+                            <li><strong>External Links:</strong> Links pointing to other domains</li>
+                            <li><strong>Robots.txt Status:</strong> Shows which links are allowed/disallowed</li>
+                        </ul>
+
+                        <h3>Export Options</h3>
+                        <p>Download results as CSV file containing:</p>
+                        <ul>
+                            <li>All discovered links</li>
+                            <li>Link types (internal/external)</li>
+                            <li>Robots.txt compliance status</li>
+                        </ul>
+                    </section>
+
+                    <section id="keyword-search" class="help-section">
+                        <h2><i class="fas fa-search me-2"></i>Keyword Analysis Tool</h2>
+                        
+                        <p>Perform in-depth keyword analysis to understand content focus and SEO optimization opportunities.</p>
+
+                        <h3>How to Use</h3>
+                        <ol class="step-list">
+                            <li>Go to <strong>Keyword Search</strong></li>
+                            <li>Enter the URL to analyze</li>
+                            <li>Click on any link from the results</li>
+                            <li>Enter up to 10 keywords (comma-separated)</li>
+                            <li>Click <strong>Analyze Keywords</strong></li>
+                        </ol>
+
+                        <h3>Analysis Features</h3>
+                        <ul>
+                            <li><strong>Keyword Density:</strong> Percentage of content containing each keyword</li>
+                            <li><strong>Frequency Count:</strong> Number of times each keyword appears</li>
+                            <li><strong>Text Extraction:</strong> Full text content from the page</li>
+                            <li><strong>Content Correction:</strong> Suggestions for improving text quality</li>
+                        </ul>
+
+                        <h3>Best Practices</h3>
+                        <div class="alert alert-info">
+                            <ul class="mb-0">
+                                <li>Focus on 3-5 primary keywords per page</li>
+                                <li>Aim for 1-3% keyword density</li>
+                                <li>Use variations and related terms</li>
+                                <li>Ensure keywords appear in headings and meta tags</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="image-search" class="help-section">
+                        <h2><i class="fas fa-image me-2"></i>Image Analysis Tool</h2>
+                        
+                        <p>Discover and analyze all images on a webpage for SEO and performance optimization.</p>
+
+                        <h3>How to Use</h3>
+                        <ol class="step-list">
+                            <li>Access <strong>Image Search</strong> from the menu</li>
+                            <li>Enter the webpage URL</li>
+                            <li>Analyze to get the link list</li>
+                            <li>Click on any link to extract images</li>
+                            <li>Review detailed image information</li>
+                        </ol>
+
+                        <h3>Image Information Provided</h3>
+                        <ul>
+                            <li><strong>Image URL:</strong> Direct link to the image file</li>
+                            <li><strong>Alt Text:</strong> Alternative text for accessibility</li>
+                            <li><strong>Title Attribute:</strong> Additional image description</li>
+                            <li><strong>File Size:</strong> Image file size for performance analysis</li>
+                            <li><strong>Dimensions:</strong> Width and height in pixels</li>
+                            <li><strong>File Extension:</strong> Image format (jpg, png, webp, etc.)</li>
+                        </ul>
+
+                        <h3>SEO Optimization Tips</h3>
+                        <div class="alert alert-success">
+                            <ul class="mb-0">
+                                <li>Always include descriptive alt text</li>
+                                <li>Optimize image file sizes for faster loading</li>
+                                <li>Use appropriate file formats (WebP for modern browsers)</li>
+                                <li>Include keywords in image filenames</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="heading-search" class="help-section">
+                        <h2><i class="fas fa-heading me-2"></i>Heading Analysis Tool</h2>
+                        
+                        <p>Analyze the heading structure (H1-H6 tags) of web pages for SEO and content organization.</p>
+
+                        <h3>How to Use</h3>
+                        <ol class="step-list">
+                            <li>Navigate to <strong>Heading Search</strong></li>
+                            <li>Enter the URL to analyze</li>
+                            <li>Select a link from the results</li>
+                            <li>View the complete heading hierarchy</li>
+                        </ol>
+
+                        <h3>Analysis Results</h3>
+                        <ul>
+                            <li><strong>Heading Hierarchy:</strong> Proper H1-H6 structure</li>
+                            <li><strong>Heading Count:</strong> Number of each heading type</li>
+                            <li><strong>Content Length:</strong> Character count for each heading</li>
+                            <li><strong>SEO Compliance:</strong> Heading best practices check</li>
+                        </ul>
+
+                        <h3>SEO Best Practices</h3>
+                        <div class="alert alert-warning">
+                            <ul class="mb-0">
+                                <li>Use only one H1 tag per page</li>
+                                <li>Keep H1 tags under 60 characters</li>
+                                <li>Follow logical hierarchy (H1 → H2 → H3)</li>
+                                <li>Include target keywords in headings</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="meta-search" class="help-section">
+                        <h2><i class="fas fa-tags me-2"></i>Meta Tag Analysis Tool</h2>
+                        
+                        <p>Extract and analyze meta tags, Open Graph data, and structured data for SEO optimization.</p>
+
+                        <h3>How to Use</h3>
+                        <ol class="step-list">
+                            <li>Go to <strong>Meta Search</strong></li>
+                            <li>Enter the webpage URL</li>
+                            <li>Analyze to get available links</li>
+                            <li>Click on any link to examine meta data</li>
+                            <li>Review all meta information</li>
+                        </ol>
+
+                        <h3>Meta Data Extracted</h3>
+                        <ul>
+                            <li><strong>Title Tag:</strong> Page title for search results</li>
+                            <li><strong>Meta Description:</strong> Page summary for search snippets</li>
+                            <li><strong>Meta Keywords:</strong> Keyword meta tags (if present)</li>
+                            <li><strong>Open Graph Tags:</strong> Social media sharing data</li>
+                            <li><strong>Twitter Cards:</strong> Twitter-specific meta data</li>
+                            <li><strong>Schema Markup:</strong> JSON-LD structured data</li>
+                        </ul>
+
+                        <h3>Meta Tag Optimization</h3>
+                        <div class="alert alert-info">
+                            <ul class="mb-0">
+                                <li>Title tags: 50-60 characters optimal</li>
+                                <li>Meta descriptions: 150-160 characters</li>
+                                <li>Include target keywords naturally</li>
+                                <li>Use unique titles and descriptions per page</li>
+                                <li>Add Open Graph data for social sharing</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="site-structure" class="help-section">
+                        <h2><i class="fas fa-sitemap me-2"></i>Site Structure Tool</h2>
+                        
+                        <p>Perform comprehensive website crawling to understand site architecture and discover all pages.</p>
+
+                        <h3>How to Use</h3>
+                        <ol class="step-list">
+                            <li>Access <strong>Site Structure</strong> from the menu</li>
+                            <li>Enter the website URL to crawl</li>
+                            <li>Click <strong>Start Crawling</strong></li>
+                            <li>Monitor progress on the loading page</li>
+                            <li>View the visual site structure when complete</li>
+                        </ol>
+
+                        <h3>Crawling Process</h3>
+                        <p>The crawler will:</p>
+                        <ul>
+                            <li>Start from the provided URL</li>
+                            <li>Follow all internal links</li>
+                            <li>Respect robots.txt rules</li>
+                            <li>Check HTTP status codes</li>
+                            <li>Build a complete site map</li>
+                        </ul>
+
+                        <h3>Results Visualization</h3>
+                        <ul>
+                            <li><strong>Site Map:</strong> Visual representation of site structure</li>
+                            <li><strong>Page Status:</strong> HTTP response codes for each page</li>
+                            <li><strong>Link Relationships:</strong> How pages connect to each other</li>
+                            <li><strong>Broken Links:</strong> Pages returning error codes</li>
+                        </ul>
+
+                        <div class="alert alert-warning">
+                            <h6><i class="fas fa-clock me-2"></i>Crawling Time</h6>
+                            <p class="mb-0">Large websites may take several minutes to crawl completely. The process runs in the background and shows real-time progress.</p>
+                        </div>
+                    </section>
+
+                    <!-- Dashboard -->
+                    <section id="dashboard" class="help-section">
+                        <h2><i class="fas fa-tachometer-alt me-2"></i>Dashboard</h2>
+                        
+                        <p>Your dashboard provides an overview of your account activity and usage statistics.</p>
+
+                        <h3>Dashboard Features</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Usage Statistics</h4>
+                                <ul>
+                                    <li>Daily token usage and remaining tokens</li>
+                                    <li>Total analyses performed</li>
+                                    <li>Most used analysis tools</li>
+                                    <li>Weekly usage trends</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Recent Activity</h4>
+                                <ul>
+                                    <li>Recent website analyses</li>
+                                    <li>Last login information</li>
+                                    <li>Profile update history</li>
+                                    <li>Usage milestones</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3>Subscription Overview</h3>
+                        <p>The dashboard shows your current subscription status including:</p>
+                        <ul>
+                            <li>Active plan details</li>
+                            <li>Token usage progress</li>
+                            <li>Subscription expiry date</li>
+                            <li>Auto-renewal status</li>
+                        </ul>
+                    </section>
+
+                    <!-- Search History -->
+                    <section id="search-history" class="help-section">
+                        <h2><i class="fas fa-history me-2"></i>Search History</h2>
+                        
+                        <p>Track all your previous analyses and easily re-run them or reference past results.</p>
+
+                        <h3>Accessing Search History</h3>
+                        <ol class="step-list">
+                            <li>Click <strong>Search History</strong> in the main menu</li>
+                            <li>View chronological list of all analyses</li>
+                            <li>Filter by date range or analysis tool</li>
+                            <li>Click on any entry to view details</li>
+                        </ol>
+
+                        <h3>History Information</h3>
+                        <p>Each entry includes:</p>
+                        <ul>
+                            <li><strong>URL Analyzed:</strong> The website or page examined</li>
+                            <li><strong>Tool Used:</strong> Which analysis tool was used</li>
+                            <li><strong>Date & Time:</strong> When the analysis was performed</li>
+                            <li><strong>Search Count:</strong> Number of times this URL was analyzed</li>
+                        </ul>
+
+                        <h3>Filtering Options</h3>
+                        <ul>
+                            <li><strong>Date Range:</strong> Filter by specific date periods</li>
+                            <li><strong>Tool Type:</strong> Show only specific analysis tools</li>
+                            <li><strong>Most Used Tool:</strong> Identify your preferred analysis method</li>
+                        </ul>
+                    </section>
+
+                    <!-- Exports & Downloads -->
+                    <section id="exports" class="help-section">
+                        <h2><i class="fas fa-download me-2"></i>Exports & Downloads</h2>
+                        
+                        <p>Export your analysis results in various formats for further processing or reporting.</p>
+
+                        <h3>Available Export Formats</h3>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-file-csv"></i>
+                            </div>
+                            <h4>CSV Exports</h4>
+                            <p>Download structured data for:</p>
+                            <ul>
+                                <li>Link analysis results</li>
+                                <li>Image information and optimization data</li>
+                                <li>Heading structure and SEO analysis</li>
+                                <li>Meta tag and schema markup data</li>
+                                <li>Site structure and crawl results</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <h4>PDF Invoices</h4>
+                            <p>Download professional invoices for:</p>
+                            <ul>
+                                <li>Subscription payments</li>
+                                <li>Additional token purchases</li>
+                                <li>Tax-compliant billing documents</li>
+                                <li>Company expense reports</li>
+                            </ul>
+                        </div>
+
+                        <h3>How to Export Data</h3>
+                        <ol class="step-list">
+                            <li>Complete any analysis using our tools</li>
+                            <li>Look for the <strong>Download</strong> or <strong>Export</strong> button</li>
+                            <li>Choose your preferred format (usually CSV)</li>
+                            <li>File will download automatically</li>
+                        </ol>
+                    </section>
+
+                    <!-- Troubleshooting -->
+                    <section id="troubleshooting" class="help-section">
+                        <h2><i class="fas fa-wrench me-2"></i>Troubleshooting</h2>
+                        
+                        <h3>Common Issues and Solutions</h3>
+
+                        <div class="feature-card">
+                            <h4><i class="fas fa-exclamation-triangle text-warning me-2"></i>Analysis Not Working</h4>
+                            <p><strong>Possible Causes:</strong></p>
+                            <ul>
+                                <li>Website blocks automated crawling</li>
+                                <li>Invalid or non-existent URL</li>
+                                <li>Insufficient tokens remaining</li>
+                                <li>Network connectivity issues</li>
+                            </ul>
+                            <p><strong>Solutions:</strong></p>
+                            <ul>
+                                <li>Verify the URL is correct and accessible</li>
+                                <li>Check your token balance</li>
+                                <li>Try a different URL to test functionality</li>
+                                <li>Contact support if issues persist</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-card">
+                            <h4><i class="fas fa-ban text-danger me-2"></i>Access Denied Errors</h4>
+                            <p><strong>Common Causes:</strong></p>
+                            <ul>
+                                <li>Subscription expired</li>
+                                <li>Daily token limit reached</li>
+                                <li>Account not verified</li>
+                            </ul>
+                            <p><strong>Solutions:</strong></p>
+                            <ul>
+                                <li>Check subscription status</li>
+                                <li>Purchase additional tokens</li>
+                                <li>Verify your email address</li>
+                                <li>Renew expired subscription</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-card">
+                            <h4><i class="fas fa-clock text-info me-2"></i>Slow Performance</h4>
+                            <p><strong>Optimization Tips:</strong></p>
+                            <ul>
+                                <li>Analyze smaller sections of large websites</li>
+                                <li>Use specific pages rather than entire domains</li>
+                                <li>Close unnecessary browser tabs</li>
+                                <li>Check your internet connection speed</li>
+                            </ul>
+                        </div>
+
+                        <h3>Browser Compatibility</h3>
+                        <p>For best performance, use:</p>
+                        <ul>
+                            <li>Chrome 90+ (Recommended)</li>
+                            <li>Firefox 88+</li>
+                            <li>Safari 14+</li>
+                            <li>Edge 90+</li>
+                        </ul>
+
+                        <h3>Contact Support</h3>
+                        <p>If you continue experiencing issues:</p>
+                        <ol>
+                            <li>Visit the <strong>Contact</strong> page</li>
+                            <li>Provide detailed description of the problem</li>
+                            <li>Include the URL you were analyzing</li>
+                            <li>Mention your browser and operating system</li>
+                        </ol>
+                    </section>
+
+                    <!-- FAQ -->
+                    <section id="faq" class="help-section">
+                        <h2><i class="fas fa-question-circle me-2"></i>Frequently Asked Questions</h2>
+                        
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        What happens when I run out of daily tokens?
+                                    </button>
+                                </h3>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        When you exhaust your daily token allocation, you can either purchase additional tokens immediately or wait until the next day when your daily tokens reset. Additional tokens can be purchased in bundles of 10, 25, 50, or 100.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        Can I analyze password-protected websites?
+                                    </button>
+                                </h3>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our tools can only analyze publicly accessible web pages. Password-protected, login-required, or private areas of websites cannot be analyzed as our crawlers don't have authentication credentials.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        How accurate is the SEO analysis?
+                                    </button>
+                                </h3>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our analysis follows current SEO best practices and guidelines. However, SEO is complex and involves many factors. Use our results as guidance alongside other SEO tools and professional expertise for comprehensive optimization.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        Do you store my analysis data?
+                                    </button>
+                                </h3>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        We store your search history for your convenience and account management. Analysis results are temporarily cached but not permanently stored. You can export any data you want to keep long-term.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                        Can I cancel my subscription anytime?
+                                    </button>
+                                </h3>
+                                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Yes, you can cancel your subscription at any time from the Subscriptions page. You'll continue to have access until your current billing period ends. Auto-renewal can be disabled without canceling immediately.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                        What payment methods do you accept?
+                                    </button>
+                                </h3>
+                                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        We use Razorpay for secure payment processing, which accepts all major credit cards, debit cards, net banking, UPI, and popular wallets. All payments are processed securely with industry-standard encryption.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                        Is there an API available?
+                                    </button>
+                                </h3>
+                                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Currently, we only offer web-based access to our analysis tools. API access may be available in the future for enterprise customers. Contact us if you have specific integration requirements.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Footer -->
+                    <div class="text-center mt-5 pt-4 border-top">
+                        <p class="text-muted">
+                            Need more help? <a href="/contact" class="text-decoration-none">Contact our support team</a> or 
+                            visit our <a href="/about" class="text-decoration-none">About page</a> for more information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Back to top button functionality
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation highlighting
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.help-section');
+            const navLinks = document.querySelectorAll('.help-nav a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 150;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
