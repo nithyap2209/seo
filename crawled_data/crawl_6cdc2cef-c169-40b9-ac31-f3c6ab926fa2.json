@@ -1,0 +1,2528 @@
+{
+    "domain": "6cdc2cef-c169-40b9-ac31-f3c6ab926fa2",
+    "statistics": {
+        "total_links": 277,
+        "home_links": 257,
+        "external_links": 20,
+        "successful_crawls": 29,
+        "crawl_success_rate": "11.28%"
+    },
+    "status_codes": {
+        "https://komaki.in/": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/xr1": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/tn-95": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-se-pro": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/m16-range-160km-to-220km-charge-speed-80km-h": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/ranger-electric-bike": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/x-one-prime": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/blog": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/cat-3-0-nxt": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/cart": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-se-ultra": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/mg-proli": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/blog/financing-your-electric-bike": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://komaki.in/product/komaki-se-max": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-pro": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/102258": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xgt-cat-2-0-easy-to-supply": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x3": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/mg-pro": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-x4": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-xr7": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/cat-2-0-nxt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/privacy-policy": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xmlrpc.php?rsd=": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-progr": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xgt-x5-easy-way-scooter": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/comments/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/dealership": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/terms-and-conditions": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/ly": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/venice": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/my-account": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/payment": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-ace": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/order-tracking": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/checkout": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-55km-range": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-ranger-base-model-jet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xr7": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-eco-range-110km-to-120-km-top-speed-55km-h": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-ranger-fully-loadedjet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/contact": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/x-2-vogue": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-prov": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-nxt-70-km-h-range-110-km-to-140-km-per-charge": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/x-one": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-x-one-prime": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/cat-3-0-nxt-range-140km-to-200km": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/the-estimated-fall-of-electric-scooter-prices-in-the-future": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/x3": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/cat-3-0-nxt-range-120km-to-180km": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/energy": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Ftn-95%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/se": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-85km-range": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-3-0-25-to-30-km-h-range-140-km-to-200-km-per-charge": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/electric-bikes/hi-speed-bikes/ranger": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xgt-cat-3-0-fast-easy-supply": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-3-0-25-to-30-km-h-range-120-km-to-180-km-per-charge": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xgt-km": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fkomaki-x-one-70km-range%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?pa_color=metallic-blue": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111050": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?pa_color=metallic-blue": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fkomaki-se-pro%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/hi-speed-scooters/se": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=332": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?pa_color=jet-black": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?add-to-cart=110949": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111083": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/332": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/44311": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?pa_color=metallic-grey": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/hi-speed-scooters": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=44311": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/web-stories/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-95-km-to-100-km-per-charge": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/refund-and-returns": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111083": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-flora": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fxr1%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?add-to-cart=110991": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?pa_color=garnet-red": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/cat-2-0-eco": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/x-one-ace": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/xr-1": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/flora": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/shop": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?pa_color=frost-white": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/electric-2-wheelers-for-delivery": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xgt-vp": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/hi-speed-scooters/se/se-pro": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro?add-to-cart=110951": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-pro/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111050": {
+            "status": 403,
+            "error": "HTTP Error 403"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?add-to-cart=110949": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fm16-range-160km-to-220km-charge-speed-80km-h%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range/feed": {
+            "status": 200,
+            "error": "Non-HTML content: application/rss+xml; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?add-to-cart=110991": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/smart-scooters": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?add-to-cart=111113": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?pa_color=sacramento-green": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?pa_color=garnet-red": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?pa_color=metallic-grey": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?add-to-cart=110952": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/smart-scooters/x-one-smart-scooters": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?pa_color=jet-black": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-x-one-70km-range?add-to-cart=111065": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/electric-bikes/hi-speed-bikes/m16": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/m16-range-160km-to-220km-charge-speed-80km-h?add-to-cart=110952": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/electric-bikes/hi-speed-bikes": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/31": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/electric-vehicles-combat-air-pollution": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/11": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/category/electric-scooter": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/16": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/5": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/37714": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/7-ways-komaki-x-one-changed-ambikas-life": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/4-key-insights-on-komaki-ace-komaki-prime-electric-scooters": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=37714": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fx-one-prime%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/3d/x_one": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/battery-variations-in-the-komaki-x-one": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/3d/ranger": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/118218": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Franger-electric-bike%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/electric-bikes": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111022": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=118218": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/m16-range-160km-to-220km-charge-speed-80km-h?add-to-cart=111113": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/m16-range-160km-to-220km-charge-speed-80km-h/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111022": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/22": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/33": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/24": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/2025/06/18": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/2025/04/24": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/25": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/2025/04/28": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/27": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/23": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/36": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/17": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/9": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/30": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/10": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/category/electric-bike": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/electric-2-wheelers-vs-noise-pollution": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/29": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/18": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/adopting-electric-two-wheelers": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/3": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/2025/05/15": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/28": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/6": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/14": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/8": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/32": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/electric-two-wheelers-reduce-stress": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/21": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/smart-scooters/cat-2-o": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=111081": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=110951": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111065": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111065": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=111100": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=111073": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=119786": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=119786": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111101": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fkomaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=111065": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/low-speed-scooters/cat-2-0": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111101": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=110951": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=111100": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=110950": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/low-speed-scooters": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge?add-to-cart=110991": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/2": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/35": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/12": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/34": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/26": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/20": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/growth-of-the-ev-charging-infrastructure": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/7": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/19": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/buy-an-electric-scooter": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/4": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/15": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/blog/page/13": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=115159": {
+            "status": 403,
+            "error": "HTTP Error 403"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fkomaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/?p=101458": {
+            "status": 403,
+            "error": "HTTP Error 403"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fcat-3-0-nxt%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=111073": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=110991": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=111101": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fcart%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=110950": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required?add-to-cart=110949": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/115159": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/wp-json/wp/v2/pages/101458": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required?add-to-cart=119786": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required?add-to-cart=111065": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required?add-to-cart=111100": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?add-to-cart=111065": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fmg-proli%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?add-to-cart=111101": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?pa_color=metallic-grey": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?add-to-cart=111100": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?add-to-cart=111081": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?pa_color=jet-black": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?add-to-cart=110949": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111102": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?add-to-cart=110991": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?pa_color=garnet-red": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?add-to-cart=110951": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/hi-speed-scooters/se/se-ultra": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?add-to-cart=110952": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?pa_color=metallic-blue": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=111078": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?pa_color=garnet-red": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?pa_color=black": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?add-to-cart=111113": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/komaki-se-ultra?pa_color=metallic-grey": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fkomaki-se-ultra%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111102": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/110949": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fproduct%2Fkomaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/hi-speed-scooters/cat-2-0-nxt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=110949": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/?p=112780": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/xmlrpc.php": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/product/111078": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/low-speed-scooters/mg-pro": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product-category/low-speed-scooters/mg-pro/mg-pro-li": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/product/mg-proli?pa_color=frost-white": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomaki.in%2Fblog%2Ffinancing-your-electric-bike%2F": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/blog/financing-your-electric-bike/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://komaki.in/wp-json/wp/v2/posts/112780": {
+            "status": 200,
+            "error": "Non-HTML content: application/json; charset=utf-8"
+        },
+        "https://komaki.in/blog/about-electric-vehicles-fame-ii-subsidy": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        }
+    },
+    "home_links": {
+        "komaki.in": {
+            "name": "komaki.in",
+            "url": "https://komaki.in",
+            "status": "Unknown",
+            "children": {
+                "product": {
+                    "name": "product",
+                    "url": "https://komaki.in/product",
+                    "status": "Unknown",
+                    "children": {
+                        "komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required": {
+                            "name": "komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required",
+                            "url": "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-non-registration-no-rto-registration-or-dl-required/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required": {
+                            "name": "komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required",
+                            "url": "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/komaki-cat-2-0-range-from-125km-per-charge-rto-registration-and-dl-required/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "komaki-se-max": {
+                            "name": "komaki-se-max",
+                            "url": "https://komaki.in/product/komaki-se-max",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-se-pro": {
+                            "name": "komaki-se-pro",
+                            "url": "https://komaki.in/product/komaki-se-pro",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/komaki-se-pro/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "komaki-se-ultra": {
+                            "name": "komaki-se-ultra",
+                            "url": "https://komaki.in/product/komaki-se-ultra",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/komaki-se-ultra/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge": {
+                            "name": "komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-110-km-to-140-km-per-charge/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "mg-pro": {
+                            "name": "mg-pro",
+                            "url": "https://komaki.in/product/mg-pro",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "mg-proli": {
+                            "name": "mg-proli",
+                            "url": "https://komaki.in/product/mg-proli",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/mg-proli/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "komaki-x-one-70km-range": {
+                            "name": "komaki-x-one-70km-range",
+                            "url": "https://komaki.in/product/komaki-x-one-70km-range",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/komaki-x-one-70km-range/feed",
+                                    "status": 200,
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "komaki-cat-2-0-black-25-km-h-range-95-km-to-100-km-per-charge": {
+                            "name": "komaki-cat-2-0-black-25-km-h-range-95-km-to-100-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-cat-2-0-black-25-km-h-range-95-km-to-100-km-per-charge",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "mg-prov": {
+                            "name": "mg-prov",
+                            "url": "https://komaki.in/product/mg-prov",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-x-one-ace": {
+                            "name": "komaki-x-one-ace",
+                            "url": "https://komaki.in/product/komaki-x-one-ace",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "cat-3-0-nxt-range-120km-to-180km": {
+                            "name": "cat-3-0-nxt-range-120km-to-180km",
+                            "url": "https://komaki.in/product/cat-3-0-nxt-range-120km-to-180km",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-x-one-85km-range": {
+                            "name": "komaki-x-one-85km-range",
+                            "url": "https://komaki.in/product/komaki-x-one-85km-range",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-ranger-fully-loadedjet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge": {
+                            "name": "komaki-ranger-fully-loadedjet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-ranger-fully-loadedjet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-cat-2-0-eco-range-110km-to-120-km-top-speed-55km-h": {
+                            "name": "komaki-cat-2-0-eco-range-110km-to-120-km-top-speed-55km-h",
+                            "url": "https://komaki.in/product/komaki-cat-2-0-eco-range-110km-to-120-km-top-speed-55km-h",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "m16-range-160km-to-220km-charge-speed-80km-h": {
+                            "name": "m16-range-160km-to-220km-charge-speed-80km-h",
+                            "url": "https://komaki.in/product/m16-range-160km-to-220km-charge-speed-80km-h",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/product/m16-range-160km-to-220km-charge-speed-80km-h/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "xr-1": {
+                            "name": "xr-1",
+                            "url": "https://komaki.in/product/xr-1",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-x3": {
+                            "name": "komaki-x3",
+                            "url": "https://komaki.in/product/komaki-x3",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-cat-2-0-nxt-70-km-h-range-110-km-to-140-km-per-charge": {
+                            "name": "komaki-cat-2-0-nxt-70-km-h-range-110-km-to-140-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-cat-2-0-nxt-70-km-h-range-110-km-to-140-km-per-charge",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-x-one-prime": {
+                            "name": "komaki-x-one-prime",
+                            "url": "https://komaki.in/product/komaki-x-one-prime",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-cat-3-0-25-to-30-km-h-range-120-km-to-180-km-per-charge": {
+                            "name": "komaki-cat-3-0-25-to-30-km-h-range-120-km-to-180-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-cat-3-0-25-to-30-km-h-range-120-km-to-180-km-per-charge",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-se-x4": {
+                            "name": "komaki-se-x4",
+                            "url": "https://komaki.in/product/komaki-se-x4",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "cat-3-0-nxt-range-140km-to-200km": {
+                            "name": "cat-3-0-nxt-range-140km-to-200km",
+                            "url": "https://komaki.in/product/cat-3-0-nxt-range-140km-to-200km",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-xr7": {
+                            "name": "komaki-xr7",
+                            "url": "https://komaki.in/product/komaki-xr7",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-se": {
+                            "name": "komaki-se",
+                            "url": "https://komaki.in/product/komaki-se",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "mg-progr": {
+                            "name": "mg-progr",
+                            "url": "https://komaki.in/product/mg-progr",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-flora": {
+                            "name": "komaki-flora",
+                            "url": "https://komaki.in/product/komaki-flora",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-x-one-55km-range": {
+                            "name": "komaki-x-one-55km-range",
+                            "url": "https://komaki.in/product/komaki-x-one-55km-range",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-ranger-base-model-jet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge": {
+                            "name": "komaki-ranger-base-model-jet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-ranger-base-model-jet-black-70-to-80-km-h-range-200-km-to-250-km-per-charge",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "komaki-cat-3-0-25-to-30-km-h-range-140-km-to-200-km-per-charge": {
+                            "name": "komaki-cat-3-0-25-to-30-km-h-range-140-km-to-200-km-per-charge",
+                            "url": "https://komaki.in/product/komaki-cat-3-0-25-to-30-km-h-range-140-km-to-200-km-per-charge",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                },
+                "blog": {
+                    "name": "blog",
+                    "url": "https://komaki.in/blog",
+                    "status": 200,
+                    "children": {
+                        "battery-variations-in-the-komaki-x-one": {
+                            "name": "battery-variations-in-the-komaki-x-one",
+                            "url": "https://komaki.in/blog/battery-variations-in-the-komaki-x-one",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "financing-your-electric-bike": {
+                            "name": "financing-your-electric-bike",
+                            "url": "https://komaki.in/blog/financing-your-electric-bike",
+                            "status": 200,
+                            "children": {
+                                "feed": {
+                                    "name": "feed",
+                                    "url": "https://komaki.in/blog/financing-your-electric-bike/feed",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "page": {
+                            "name": "page",
+                            "url": "https://komaki.in/blog/page",
+                            "status": "Unknown",
+                            "children": {
+                                "16": {
+                                    "name": "16",
+                                    "url": "https://komaki.in/blog/page/16",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "31": {
+                                    "name": "31",
+                                    "url": "https://komaki.in/blog/page/31",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "17": {
+                                    "name": "17",
+                                    "url": "https://komaki.in/blog/page/17",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "36": {
+                                    "name": "36",
+                                    "url": "https://komaki.in/blog/page/36",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "24": {
+                                    "name": "24",
+                                    "url": "https://komaki.in/blog/page/24",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "10": {
+                                    "name": "10",
+                                    "url": "https://komaki.in/blog/page/10",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "18": {
+                                    "name": "18",
+                                    "url": "https://komaki.in/blog/page/18",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "28": {
+                                    "name": "28",
+                                    "url": "https://komaki.in/blog/page/28",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "8": {
+                                    "name": "8",
+                                    "url": "https://komaki.in/blog/page/8",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "21": {
+                                    "name": "21",
+                                    "url": "https://komaki.in/blog/page/21",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "32": {
+                                    "name": "32",
+                                    "url": "https://komaki.in/blog/page/32",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "15": {
+                                    "name": "15",
+                                    "url": "https://komaki.in/blog/page/15",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "7": {
+                                    "name": "7",
+                                    "url": "https://komaki.in/blog/page/7",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "20": {
+                                    "name": "20",
+                                    "url": "https://komaki.in/blog/page/20",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "12": {
+                                    "name": "12",
+                                    "url": "https://komaki.in/blog/page/12",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "name": "2",
+                                    "url": "https://komaki.in/blog/page/2",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "5": {
+                                    "name": "5",
+                                    "url": "https://komaki.in/blog/page/5",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "11": {
+                                    "name": "11",
+                                    "url": "https://komaki.in/blog/page/11",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "9": {
+                                    "name": "9",
+                                    "url": "https://komaki.in/blog/page/9",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "23": {
+                                    "name": "23",
+                                    "url": "https://komaki.in/blog/page/23",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "25": {
+                                    "name": "25",
+                                    "url": "https://komaki.in/blog/page/25",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "27": {
+                                    "name": "27",
+                                    "url": "https://komaki.in/blog/page/27",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "22": {
+                                    "name": "22",
+                                    "url": "https://komaki.in/blog/page/22",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "33": {
+                                    "name": "33",
+                                    "url": "https://komaki.in/blog/page/33",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "30": {
+                                    "name": "30",
+                                    "url": "https://komaki.in/blog/page/30",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "29": {
+                                    "name": "29",
+                                    "url": "https://komaki.in/blog/page/29",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "name": "3",
+                                    "url": "https://komaki.in/blog/page/3",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "6": {
+                                    "name": "6",
+                                    "url": "https://komaki.in/blog/page/6",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "14": {
+                                    "name": "14",
+                                    "url": "https://komaki.in/blog/page/14",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "13": {
+                                    "name": "13",
+                                    "url": "https://komaki.in/blog/page/13",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "4": {
+                                    "name": "4",
+                                    "url": "https://komaki.in/blog/page/4",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "19": {
+                                    "name": "19",
+                                    "url": "https://komaki.in/blog/page/19",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "26": {
+                                    "name": "26",
+                                    "url": "https://komaki.in/blog/page/26",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "34": {
+                                    "name": "34",
+                                    "url": "https://komaki.in/blog/page/34",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "35": {
+                                    "name": "35",
+                                    "url": "https://komaki.in/blog/page/35",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2025": {
+                            "name": "2025",
+                            "url": "https://komaki.in/blog/2025",
+                            "status": "Unknown",
+                            "children": {
+                                "04": {
+                                    "name": "04",
+                                    "url": "https://komaki.in/blog/2025/04",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "28": {
+                                            "name": "28",
+                                            "url": "https://komaki.in/blog/2025/04/28",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "24": {
+                                            "name": "24",
+                                            "url": "https://komaki.in/blog/2025/04/24",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "06": {
+                                    "name": "06",
+                                    "url": "https://komaki.in/blog/2025/06",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "18": {
+                                            "name": "18",
+                                            "url": "https://komaki.in/blog/2025/06/18",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "05": {
+                                    "name": "05",
+                                    "url": "https://komaki.in/blog/2025/05",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "15": {
+                                            "name": "15",
+                                            "url": "https://komaki.in/blog/2025/05/15",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "category": {
+                            "name": "category",
+                            "url": "https://komaki.in/blog/category",
+                            "status": "Unknown",
+                            "children": {
+                                "electric-bike": {
+                                    "name": "electric-bike",
+                                    "url": "https://komaki.in/blog/category/electric-bike",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "electric-scooter": {
+                                    "name": "electric-scooter",
+                                    "url": "https://komaki.in/blog/category/electric-scooter",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "electric-2-wheelers-vs-noise-pollution": {
+                            "name": "electric-2-wheelers-vs-noise-pollution",
+                            "url": "https://komaki.in/blog/electric-2-wheelers-vs-noise-pollution",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "electric-vehicles-combat-air-pollution": {
+                            "name": "electric-vehicles-combat-air-pollution",
+                            "url": "https://komaki.in/blog/electric-vehicles-combat-air-pollution",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "electric-2-wheelers-for-delivery": {
+                            "name": "electric-2-wheelers-for-delivery",
+                            "url": "https://komaki.in/blog/electric-2-wheelers-for-delivery",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "about-electric-vehicles-fame-ii-subsidy": {
+                            "name": "about-electric-vehicles-fame-ii-subsidy",
+                            "url": "https://komaki.in/blog/about-electric-vehicles-fame-ii-subsidy",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "adopting-electric-two-wheelers": {
+                            "name": "adopting-electric-two-wheelers",
+                            "url": "https://komaki.in/blog/adopting-electric-two-wheelers",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "electric-two-wheelers-reduce-stress": {
+                            "name": "electric-two-wheelers-reduce-stress",
+                            "url": "https://komaki.in/blog/electric-two-wheelers-reduce-stress",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "buy-an-electric-scooter": {
+                            "name": "buy-an-electric-scooter",
+                            "url": "https://komaki.in/blog/buy-an-electric-scooter",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "growth-of-the-ev-charging-infrastructure": {
+                            "name": "growth-of-the-ev-charging-infrastructure",
+                            "url": "https://komaki.in/blog/growth-of-the-ev-charging-infrastructure",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "4-key-insights-on-komaki-ace-komaki-prime-electric-scooters": {
+                            "name": "4-key-insights-on-komaki-ace-komaki-prime-electric-scooters",
+                            "url": "https://komaki.in/blog/4-key-insights-on-komaki-ace-komaki-prime-electric-scooters",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "the-estimated-fall-of-electric-scooter-prices-in-the-future": {
+                            "name": "the-estimated-fall-of-electric-scooter-prices-in-the-future",
+                            "url": "https://komaki.in/blog/the-estimated-fall-of-electric-scooter-prices-in-the-future",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "7-ways-komaki-x-one-changed-ambikas-life": {
+                            "name": "7-ways-komaki-x-one-changed-ambikas-life",
+                            "url": "https://komaki.in/blog/7-ways-komaki-x-one-changed-ambikas-life",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                },
+                "wp-json": {
+                    "name": "wp-json",
+                    "url": "https://komaki.in/wp-json",
+                    "status": "not connected",
+                    "children": {
+                        "wp": {
+                            "name": "wp",
+                            "url": "https://komaki.in/wp-json/wp",
+                            "status": "Unknown",
+                            "children": {
+                                "v2": {
+                                    "name": "v2",
+                                    "url": "https://komaki.in/wp-json/wp/v2",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "pages": {
+                                            "name": "pages",
+                                            "url": "https://komaki.in/wp-json/wp/v2/pages",
+                                            "status": "Unknown",
+                                            "children": {
+                                                "101458": {
+                                                    "name": "101458",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/101458",
+                                                    "status": 200,
+                                                    "children": {}
+                                                },
+                                                "44311": {
+                                                    "name": "44311",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/44311",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "118218": {
+                                                    "name": "118218",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/118218",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "102258": {
+                                                    "name": "102258",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/102258",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "332": {
+                                                    "name": "332",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/332",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "115159": {
+                                                    "name": "115159",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/115159",
+                                                    "status": 200,
+                                                    "children": {}
+                                                },
+                                                "37714": {
+                                                    "name": "37714",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/pages/37714",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                }
+                                            }
+                                        },
+                                        "product": {
+                                            "name": "product",
+                                            "url": "https://komaki.in/wp-json/wp/v2/product",
+                                            "status": "Unknown",
+                                            "children": {
+                                                "111065": {
+                                                    "name": "111065",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111065",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "111102": {
+                                                    "name": "111102",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111102",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "111101": {
+                                                    "name": "111101",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111101",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "111078": {
+                                                    "name": "111078",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111078",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "111022": {
+                                                    "name": "111022",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111022",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "110949": {
+                                                    "name": "110949",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/110949",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "111083": {
+                                                    "name": "111083",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111083",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                },
+                                                "111050": {
+                                                    "name": "111050",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/product/111050",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                }
+                                            }
+                                        },
+                                        "posts": {
+                                            "name": "posts",
+                                            "url": "https://komaki.in/wp-json/wp/v2/posts",
+                                            "status": "Unknown",
+                                            "children": {
+                                                "112780": {
+                                                    "name": "112780",
+                                                    "url": "https://komaki.in/wp-json/wp/v2/posts/112780",
+                                                    "status": 200,
+                                                    "children": {}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "oembed": {
+                            "name": "oembed",
+                            "url": "https://komaki.in/wp-json/oembed",
+                            "status": "Unknown",
+                            "children": {
+                                "1.0": {
+                                    "name": "1.0",
+                                    "url": "https://komaki.in/wp-json/oembed/1.0",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "embed": {
+                                            "name": "embed",
+                                            "url": "https://komaki.in/wp-json/oembed/1.0/embed",
+                                            "status": "Unknown",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "feed": {
+                    "name": "feed",
+                    "url": "https://komaki.in/feed",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "payment": {
+                    "name": "payment",
+                    "url": "https://komaki.in/payment",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "my-account": {
+                    "name": "my-account",
+                    "url": "https://komaki.in/my-account",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "x3": {
+                    "name": "x3",
+                    "url": "https://komaki.in/x3",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "product-category": {
+                    "name": "product-category",
+                    "url": "https://komaki.in/product-category",
+                    "status": "Unknown",
+                    "children": {
+                        "smart-scooters": {
+                            "name": "smart-scooters",
+                            "url": "https://komaki.in/product-category/smart-scooters",
+                            "status": "not connected",
+                            "children": {
+                                "cat-2-o": {
+                                    "name": "cat-2-o",
+                                    "url": "https://komaki.in/product-category/smart-scooters/cat-2-o",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "x-one-smart-scooters": {
+                                    "name": "x-one-smart-scooters",
+                                    "url": "https://komaki.in/product-category/smart-scooters/x-one-smart-scooters",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "low-speed-scooters": {
+                            "name": "low-speed-scooters",
+                            "url": "https://komaki.in/product-category/low-speed-scooters",
+                            "status": "not connected",
+                            "children": {
+                                "mg-pro": {
+                                    "name": "mg-pro",
+                                    "url": "https://komaki.in/product-category/low-speed-scooters/mg-pro",
+                                    "status": "not connected",
+                                    "children": {
+                                        "mg-pro-li": {
+                                            "name": "mg-pro-li",
+                                            "url": "https://komaki.in/product-category/low-speed-scooters/mg-pro/mg-pro-li",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "cat-2-0": {
+                                    "name": "cat-2-0",
+                                    "url": "https://komaki.in/product-category/low-speed-scooters/cat-2-0",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "electric-bikes": {
+                            "name": "electric-bikes",
+                            "url": "https://komaki.in/product-category/electric-bikes",
+                            "status": "not connected",
+                            "children": {
+                                "hi-speed-bikes": {
+                                    "name": "hi-speed-bikes",
+                                    "url": "https://komaki.in/product-category/electric-bikes/hi-speed-bikes",
+                                    "status": "not connected",
+                                    "children": {
+                                        "ranger": {
+                                            "name": "ranger",
+                                            "url": "https://komaki.in/product-category/electric-bikes/hi-speed-bikes/ranger",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "m16": {
+                                            "name": "m16",
+                                            "url": "https://komaki.in/product-category/electric-bikes/hi-speed-bikes/m16",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "hi-speed-scooters": {
+                            "name": "hi-speed-scooters",
+                            "url": "https://komaki.in/product-category/hi-speed-scooters",
+                            "status": "not connected",
+                            "children": {
+                                "se": {
+                                    "name": "se",
+                                    "url": "https://komaki.in/product-category/hi-speed-scooters/se",
+                                    "status": "not connected",
+                                    "children": {
+                                        "se-pro": {
+                                            "name": "se-pro",
+                                            "url": "https://komaki.in/product-category/hi-speed-scooters/se/se-pro",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "se-ultra": {
+                                            "name": "se-ultra",
+                                            "url": "https://komaki.in/product-category/hi-speed-scooters/se/se-ultra",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "cat-2-0-nxt": {
+                                    "name": "cat-2-0-nxt",
+                                    "url": "https://komaki.in/product-category/hi-speed-scooters/cat-2-0-nxt",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "cat-2-0-eco": {
+                    "name": "cat-2-0-eco",
+                    "url": "https://komaki.in/cat-2-0-eco",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "energy": {
+                    "name": "energy",
+                    "url": "https://komaki.in/energy",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "refund-and-returns": {
+                    "name": "refund-and-returns",
+                    "url": "https://komaki.in/refund-and-returns",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xmlrpc.php": {
+                    "name": "xmlrpc.php",
+                    "url": "https://komaki.in/xmlrpc.php",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xgt-vp": {
+                    "name": "xgt-vp",
+                    "url": "https://komaki.in/xgt-vp",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "flora": {
+                    "name": "flora",
+                    "url": "https://komaki.in/flora",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "3d": {
+                    "name": "3d",
+                    "url": "https://komaki.in/3d",
+                    "status": "Unknown",
+                    "children": {
+                        "ranger": {
+                            "name": "ranger",
+                            "url": "https://komaki.in/3d/ranger",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "x_one": {
+                            "name": "x_one",
+                            "url": "https://komaki.in/3d/x_one",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                },
+                "comments": {
+                    "name": "comments",
+                    "url": "https://komaki.in/comments",
+                    "status": "Unknown",
+                    "children": {
+                        "feed": {
+                            "name": "feed",
+                            "url": "https://komaki.in/comments/feed",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                },
+                "mg-pro": {
+                    "name": "mg-pro",
+                    "url": "https://komaki.in/mg-pro",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "x-2-vogue": {
+                    "name": "x-2-vogue",
+                    "url": "https://komaki.in/x-2-vogue",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "contact": {
+                    "name": "contact",
+                    "url": "https://komaki.in/contact",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "terms-and-conditions": {
+                    "name": "terms-and-conditions",
+                    "url": "https://komaki.in/terms-and-conditions",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "se": {
+                    "name": "se",
+                    "url": "https://komaki.in/se",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xgt-km": {
+                    "name": "xgt-km",
+                    "url": "https://komaki.in/xgt-km",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "x-one-prime": {
+                    "name": "x-one-prime",
+                    "url": "https://komaki.in/x-one-prime",
+                    "status": 200,
+                    "children": {}
+                },
+                "checkout": {
+                    "name": "checkout",
+                    "url": "https://komaki.in/checkout",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "shop": {
+                    "name": "shop",
+                    "url": "https://komaki.in/shop",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "venice": {
+                    "name": "venice",
+                    "url": "https://komaki.in/venice",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xr1": {
+                    "name": "xr1",
+                    "url": "https://komaki.in/xr1",
+                    "status": 200,
+                    "children": {}
+                },
+                "ranger-electric-bike": {
+                    "name": "ranger-electric-bike",
+                    "url": "https://komaki.in/ranger-electric-bike",
+                    "status": 200,
+                    "children": {}
+                },
+                "ly": {
+                    "name": "ly",
+                    "url": "https://komaki.in/ly",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "cat-2-0-nxt": {
+                    "name": "cat-2-0-nxt",
+                    "url": "https://komaki.in/cat-2-0-nxt",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "x-one-ace": {
+                    "name": "x-one-ace",
+                    "url": "https://komaki.in/x-one-ace",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xgt-cat-2-0-easy-to-supply": {
+                    "name": "xgt-cat-2-0-easy-to-supply",
+                    "url": "https://komaki.in/xgt-cat-2-0-easy-to-supply",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "x-one": {
+                    "name": "x-one",
+                    "url": "https://komaki.in/x-one",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xgt-cat-3-0-fast-easy-supply": {
+                    "name": "xgt-cat-3-0-fast-easy-supply",
+                    "url": "https://komaki.in/xgt-cat-3-0-fast-easy-supply",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xgt-x5-easy-way-scooter": {
+                    "name": "xgt-x5-easy-way-scooter",
+                    "url": "https://komaki.in/xgt-x5-easy-way-scooter",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "tn-95": {
+                    "name": "tn-95",
+                    "url": "https://komaki.in/tn-95",
+                    "status": 200,
+                    "children": {}
+                },
+                "cat-3-0-nxt": {
+                    "name": "cat-3-0-nxt",
+                    "url": "https://komaki.in/cat-3-0-nxt",
+                    "status": 200,
+                    "children": {}
+                },
+                "cart": {
+                    "name": "cart",
+                    "url": "https://komaki.in/cart",
+                    "status": 200,
+                    "children": {}
+                },
+                "xr7": {
+                    "name": "xr7",
+                    "url": "https://komaki.in/xr7",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "order-tracking": {
+                    "name": "order-tracking",
+                    "url": "https://komaki.in/order-tracking",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "dealership": {
+                    "name": "dealership",
+                    "url": "https://komaki.in/dealership",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "privacy-policy": {
+                    "name": "privacy-policy",
+                    "url": "https://komaki.in/privacy-policy",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "web-stories": {
+                    "name": "web-stories",
+                    "url": "https://komaki.in/web-stories",
+                    "status": "Unknown",
+                    "children": {
+                        "feed": {
+                            "name": "feed",
+                            "url": "https://komaki.in/web-stories/feed",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "other_links": {
+        "www.haribhoomi.com": {
+            "name": "www.haribhoomi.com",
+            "url": "https://www.haribhoomi.com",
+            "status": "Unknown",
+            "children": {
+                "automobile": {
+                    "name": "automobile",
+                    "url": "https://www.haribhoomi.com/automobile",
+                    "status": "Unknown",
+                    "children": {
+                        "komaki-electric-launches-ranger-pro-and-pro-plus-637377": {
+                            "name": "komaki-electric-launches-ranger-pro-and-pro-plus-637377",
+                            "url": "https://www.haribhoomi.com/automobile/komaki-electric-launches-ranger-pro-and-pro-plus-637377",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "www.drivespark.com": {
+            "name": "www.drivespark.com",
+            "url": "https://www.drivespark.com",
+            "status": "Unknown",
+            "children": {
+                "two-wheelers": {
+                    "name": "two-wheelers",
+                    "url": "https://www.drivespark.com/two-wheelers",
+                    "status": "Unknown",
+                    "children": {
+                        "2025": {
+                            "name": "2025",
+                            "url": "https://www.drivespark.com/two-wheelers/2025",
+                            "status": "Unknown",
+                            "children": {
+                                "komaki-electric-ranger-pro-and-pro-plus-launched-range-specs-features-011-073459.html": {
+                                    "name": "komaki-electric-ranger-pro-and-pro-plus-launched-range-specs-features-011-073459.html",
+                                    "url": "https://www.drivespark.com/two-wheelers/2025/komaki-electric-ranger-pro-and-pro-plus-launched-range-specs-features-011-073459.html",
+                                    "status": "Unknown",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "www.livehindustan.com": {
+            "name": "www.livehindustan.com",
+            "url": "https://www.livehindustan.com",
+            "status": "Unknown",
+            "children": {
+                "auto": {
+                    "name": "auto",
+                    "url": "https://www.livehindustan.com/auto",
+                    "status": "Unknown",
+                    "children": {
+                        "komaki-electric-launches-ranger-pro-and-pro-plus-priced-rs-1-29-lakh-201752649575789.html": {
+                            "name": "komaki-electric-launches-ranger-pro-and-pro-plus-priced-rs-1-29-lakh-201752649575789.html",
+                            "url": "https://www.livehindustan.com/auto/komaki-electric-launches-ranger-pro-and-pro-plus-priced-rs-1-29-lakh-201752649575789.html",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "auto.hindustantimes.com": {
+            "name": "auto.hindustantimes.com",
+            "url": "https://auto.hindustantimes.com",
+            "status": "Unknown",
+            "children": {
+                "auto": {
+                    "name": "auto",
+                    "url": "https://auto.hindustantimes.com/auto",
+                    "status": "Unknown",
+                    "children": {
+                        "electric-vehicles": {
+                            "name": "electric-vehicles",
+                            "url": "https://auto.hindustantimes.com/auto/electric-vehicles",
+                            "status": "Unknown",
+                            "children": {
+                                "komaki-electric-launches-ranger-pro-and-pro-priced-from-rs-1-29-lakh-41752562722977.html": {
+                                    "name": "komaki-electric-launches-ranger-pro-and-pro-priced-from-rs-1-29-lakh-41752562722977.html",
+                                    "url": "https://auto.hindustantimes.com/auto/electric-vehicles/komaki-electric-launches-ranger-pro-and-pro-priced-from-rs-1-29-lakh-41752562722977.html",
+                                    "status": "Unknown",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "gmpg.org": {
+            "name": "gmpg.org",
+            "url": "https://gmpg.org",
+            "status": "Unknown",
+            "children": {
+                "xfn": {
+                    "name": "xfn",
+                    "url": "https://gmpg.org/xfn",
+                    "status": "Unknown",
+                    "children": {
+                        "11": {
+                            "name": "11",
+                            "url": "https://gmpg.org/xfn/11",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "www.evmechanica.com": {
+            "name": "www.evmechanica.com",
+            "url": "https://www.evmechanica.com",
+            "status": "Unknown",
+            "children": {
+                "komaki-unveils-ranger-pro-series-redefining-e-two-wheelers": {
+                    "name": "komaki-unveils-ranger-pro-series-redefining-e-two-wheelers",
+                    "url": "https://www.evmechanica.com/komaki-unveils-ranger-pro-series-redefining-e-two-wheelers",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "in.pinterest.com": {
+            "name": "in.pinterest.com",
+            "url": "https://in.pinterest.com",
+            "status": "Unknown",
+            "children": {
+                "komakidigital": {
+                    "name": "komakidigital",
+                    "url": "https://in.pinterest.com/komakidigital",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "www.googletagmanager.com": {
+            "name": "www.googletagmanager.com",
+            "url": "https://www.googletagmanager.com",
+            "status": "Unknown",
+            "children": {
+                "gtag": {
+                    "name": "gtag",
+                    "url": "https://www.googletagmanager.com/gtag",
+                    "status": "Unknown",
+                    "children": {
+                        "js": {
+                            "name": "js",
+                            "url": "https://www.googletagmanager.com/gtag/js",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                },
+                "ns.html": {
+                    "name": "ns.html",
+                    "url": "https://www.googletagmanager.com/ns.html",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "www.msn.com": {
+            "name": "www.msn.com",
+            "url": "https://www.msn.com",
+            "status": "Unknown",
+            "children": {
+                "en-in": {
+                    "name": "en-in",
+                    "url": "https://www.msn.com/en-in",
+                    "status": "Unknown",
+                    "children": {
+                        "technology": {
+                            "name": "technology",
+                            "url": "https://www.msn.com/en-in/technology",
+                            "status": "Unknown",
+                            "children": {
+                                "consumer-electronics": {
+                                    "name": "consumer-electronics",
+                                    "url": "https://www.msn.com/en-in/technology/consumer-electronics",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "komaki-electric-launches-ranger-pro-and-pro-priced-from-1-29-lakh": {
+                                            "name": "komaki-electric-launches-ranger-pro-and-pro-priced-from-1-29-lakh",
+                                            "url": "https://www.msn.com/en-in/technology/consumer-electronics/komaki-electric-launches-ranger-pro-and-pro-priced-from-1-29-lakh",
+                                            "status": "Unknown",
+                                            "children": {
+                                                "ar-AA1IE3iM": {
+                                                    "name": "ar-AA1IE3iM",
+                                                    "url": "https://www.msn.com/en-in/technology/consumer-electronics/komaki-electric-launches-ranger-pro-and-pro-priced-from-1-29-lakh/ar-AA1IE3iM",
+                                                    "status": "Unknown",
+                                                    "children": {}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "www.mxmoto.co": {
+            "name": "www.mxmoto.co",
+            "url": "https://www.mxmoto.co",
+            "status": "Unknown",
+            "children": {}
+        },
+        "carbikez.com": {
+            "name": "carbikez.com",
+            "url": "https://carbikez.com",
+            "status": "Unknown",
+            "children": {
+                "komaki-ranger-pro-and-pro-electric-cruisers-launched": {
+                    "name": "komaki-ranger-pro-and-pro-electric-cruisers-launched",
+                    "url": "https://carbikez.com/komaki-ranger-pro-and-pro-electric-cruisers-launched",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "auto.economictimes.indiatimes.com": {
+            "name": "auto.economictimes.indiatimes.com",
+            "url": "https://auto.economictimes.indiatimes.com",
+            "status": "Unknown",
+            "children": {
+                "news": {
+                    "name": "news",
+                    "url": "https://auto.economictimes.indiatimes.com/news",
+                    "status": "Unknown",
+                    "children": {
+                        "two-wheelers": {
+                            "name": "two-wheelers",
+                            "url": "https://auto.economictimes.indiatimes.com/news/two-wheelers",
+                            "status": "Unknown",
+                            "children": {
+                                "komaki-launches-new-ranger-pro-and-pro-electric-bikes": {
+                                    "name": "komaki-launches-new-ranger-pro-and-pro-electric-bikes",
+                                    "url": "https://auto.economictimes.indiatimes.com/news/two-wheelers/komaki-launches-new-ranger-pro-and-pro-electric-bikes",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "122438864": {
+                                            "name": "122438864",
+                                            "url": "https://auto.economictimes.indiatimes.com/news/two-wheelers/komaki-launches-new-ranger-pro-and-pro-electric-bikes/122438864",
+                                            "status": "Unknown",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "www.motoroids.com": {
+            "name": "www.motoroids.com",
+            "url": "https://www.motoroids.com",
+            "status": "Unknown",
+            "children": {
+                "news": {
+                    "name": "news",
+                    "url": "https://www.motoroids.com/news",
+                    "status": "Unknown",
+                    "children": {
+                        "komaki-ranger-pro-pro-launched-in-india-the-electric-cruisers-youve-been-waiting-for": {
+                            "name": "komaki-ranger-pro-pro-launched-in-india-the-electric-cruisers-youve-been-waiting-for",
+                            "url": "https://www.motoroids.com/news/komaki-ranger-pro-pro-launched-in-india-the-electric-cruisers-youve-been-waiting-for",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "www.apnnews.com": {
+            "name": "www.apnnews.com",
+            "url": "https://www.apnnews.com",
+            "status": "Unknown",
+            "children": {
+                "komaki-electric-introduces-all-new-ranger-pro-and-pro-starting-at-inr-129999-and-inr-139999": {
+                    "name": "komaki-electric-introduces-all-new-ranger-pro-and-pro-starting-at-inr-129999-and-inr-139999",
+                    "url": "https://www.apnnews.com/komaki-electric-introduces-all-new-ranger-pro-and-pro-starting-at-inr-129999-and-inr-139999",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "api.whatsapp.com": {
+            "name": "api.whatsapp.com",
+            "url": "https://api.whatsapp.com",
+            "status": "Unknown",
+            "children": {
+                "send": {
+                    "name": "send",
+                    "url": "https://api.whatsapp.com/send",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "nitroscripts.com": {
+            "name": "nitroscripts.com",
+            "url": "https://nitroscripts.com",
+            "status": "Unknown",
+            "children": {
+                "cuhmahBVzsptUfBleJHdqIPMVnbgbvAs": {
+                    "name": "cuhmahBVzsptUfBleJHdqIPMVnbgbvAs",
+                    "url": "https://nitroscripts.com/cuhmahBVzsptUfBleJHdqIPMVnbgbvAs",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "domain": "528f05e4-86c8-41dc-be51-8df32344a26b",
+    "statistics": {
+        "total_links": 0,
+        "home_links": 0,
+        "external_links": 0,
+        "successful_crawls": 0,
+        "crawl_success_rate": "0.00%"
+    },
+    "status_codes": {
+        "https://pothys.com/": {
+            "status": 429,
+            "error": "HTTP Error 429"
+        }
+    },
+    "home_links": {},
+    "other_links": {}
+}

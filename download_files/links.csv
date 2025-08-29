@@ -1,0 +1,34 @@
+Link,Type,Allowed
+https://morcapumps.com,Home,Yes
+https://morcapumps.com/blog/rooftop-solar-scheme,Home,Yes
+https://morcapumps.com/blog/solar-power-plant-in-india,Home,Yes
+https://morcapumps.com/blog/subsidy-on-solar-panels,Home,Yes
+https://morcapumps.com/blogs-solar-energy-pump-information,Home,Yes
+https://morcapumps.com/cart,Home,Yes
+https://morcapumps.com/contact-us,Home,Yes
+https://morcapumps.com/my-account,Home,Yes
+https://morcapumps.com/my-account/lost-password,Home,Yes
+https://morcapumps.com/privacy-policy,Home,Yes
+https://morcapumps.com/refund-and-cancellation-policy,Home,Yes
+https://morcapumps.com/solar-deep-well-pump,Home,Yes
+https://morcapumps.com/solar-monoblock-pump,Home,Yes
+https://morcapumps.com/solar-open-well-pump,Home,Yes
+https://morcapumps.com/solar-powered-water-pump,Home,Yes
+https://morcapumps.com/solar-pump-dealership,Home,Yes
+https://morcapumps.com/solar-pump-for-home,Home,Yes
+https://morcapumps.com/solar-pumps-price,Home,Yes
+https://morcapumps.com/solar-water-pump-for-irrigation,Home,Yes
+https://morcapumps.com/solar-water-pumps-for-agriculture,Home,Yes
+https://morcapumps.com/solar-well-pump,Home,Yes
+https://morcapumps.com/terms-and-conditions,Home,Yes
+https://morcapumps.com/web-stories,Home,Yes
+https://twitter.com/MorcaPumps,External,Yes
+https://www.facebook.com/MorcaPump,External,Yes
+https://www.instagram.com/morcapumps,External,Yes
+https://www.youtube.com/channel/UCo9ADixARyC1PaLrzPUSbvQ,External,Yes
+--- DISALLOWED LINKS (NOT CRAWLED) ---,,
+robots.txt for morcapumps.com,Info,N/A
+https://morcapumps.com/wp-content/uploads/wc-logs/,Disallowed,No
+https://morcapumps.com/wp-content/uploads/woocommerce_transient_files/,Disallowed,No
+https://morcapumps.com/wp-content/uploads/woocommerce_uploads/,Disallowed,No
+https://morcapumps.com/wp-admin/,Disallowed,No

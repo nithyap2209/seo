@@ -1,0 +1,18 @@
+{
+    "domain": "a6f6c9d3-6bc5-4a71-8902-6e8cf95102d8",
+    "statistics": {
+        "total_links": 0,
+        "home_links": 0,
+        "external_links": 0,
+        "successful_crawls": 0,
+        "crawl_success_rate": "0.00%"
+    },
+    "status_codes": {
+        "https://atherenergy.com/": {
+            "status": 403,
+            "error": "HTTP Error 403"
+        }
+    },
+    "home_links": {},
+    "other_links": {}
+}

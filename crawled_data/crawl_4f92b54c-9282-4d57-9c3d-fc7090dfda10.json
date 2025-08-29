@@ -1,0 +1,1414 @@
+{
+    "domain": "4f92b54c-9282-4d57-9c3d-fc7090dfda10",
+    "statistics": {
+        "total_links": 163,
+        "home_links": 159,
+        "external_links": 4,
+        "successful_crawls": 6,
+        "crawl_success_rate": "3.77%"
+    },
+    "status_codes": {
+        "https://botticelli.in/": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://botticelli.in/?add-to-wishlist=11927": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://botticelli.in/?add-to-wishlist=13733": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://botticelli.in/?add-to-wishlist=13666": {
+            "status": 200,
+            "error": "No error"
+        },
+        "https://botticelli.in/comments/feed": {
+            "status": 200,
+            "error": "Non-HTML content: application/rss+xml; charset=utf-8"
+        },
+        "https://botticelli.in/?add-to-wishlist=13785": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/my-account": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12658": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collections/shirts/printed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13107": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12758": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/shirt-for-your-body-shape": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=14028": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/date-night-outfit": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collections/shirts/party-wear": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/weekday-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/xmlrpc.php?rsd=": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/weekend-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/ice-blue-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13157": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/khaki-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbotticelli.in%2F": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13656": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/sandal-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/sandal-and-navy-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/black-designer-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/navy-blue-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/shirts-for-tall-men": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12670": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13106": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12010": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/my-account/lost-password": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/blue-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12072": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dMIFdwYjGaAMFtZd_QA1ZeUFuaHjyV.woff2": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collections/shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wedding-shirts-for-men": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13680": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/grey-striped-shirt-for-men": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/light-blue-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13666": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=11998": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/shop-cart": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/green-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/refund_returns-policy": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/classic-oxford-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/blue-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wishlist": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/brown-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/maroon-striped-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/feed": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dMIFdwYjGaAMFtZd_QA1ZeUFWaHg.woff2": {
+            "status": 200,
+            "error": "Non-HTML content: application/font-woff2"
+        },
+        "https://botticelli.in/collection/shirts/checked/green-and-white-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13107": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/maroon-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12629": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-json/wp/v2/pages/113": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12603": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13785": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13656": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/sandal-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/terms-conditions": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/coffee-colour-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/ramar-blue-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-json": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13094": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12704": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/blue-striped-shirt-for-men": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/sandal-and-white-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dOIFdwYjGaAMFtZd_QA1ZVYFeCGg.woff2": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/shipping-policy": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/check-shirt-combination": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12054": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12658": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/category/lifestyle": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/contact-us": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12084": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12715": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/pink-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/pastel-color-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/blue-white-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/dark-blue-formal-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12603": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13169": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13695": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/ice-green-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/green-check-formal-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13733": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13058": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/dark-colour-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13712": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=11998": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12715": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/grey-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/premium-black-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/orange-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/grey-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13143": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12010": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dOIFdwYjGaAMFtZd_QA1ZbYFc.woff2": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collections/shirts/striped": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12072": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13169": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13130": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/dark-blue-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/green-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/blue-and-grey-striped-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/privacy-policy": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13157": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12084": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/about-us": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/festive-shirts-for-men": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13143": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12758": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13130": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12704": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12737": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/dark-blue-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/printed/brown-printed-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/interview-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12670": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/green-striped-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/yellow-plaid-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13784": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/chinese-collar-khaki-party-wear-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=11976": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/premium-white-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/olive-green-party-wear-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/check-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/light-yellow-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=12629": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/red-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13784": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/checked/black-check-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13094": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/yellow-shirts-for-men": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/my-account?mode=login": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/grey-vertical-striped-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12054": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/violet-party-wear-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13712": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blue-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13058": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=13106": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/semi-formal-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13680": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/blue-vertical-striped-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/striped/sandal-vertical-striped-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add-to-wishlist=11976": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/office-wear-shirts": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=13695": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=14028": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collection/shirts/party-wear/blue-abstract-print-shirt": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/collections/shirts/checked": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog/striped-shirt-fabrics": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=11927": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/blog": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        },
+        "https://botticelli.in/?add_to_compare=12737": {
+            "status": "not connected",
+            "error": "TimeoutError"
+        }
+    },
+    "home_links": {
+        "botticelli.in": {
+            "name": "botticelli.in",
+            "url": "https://botticelli.in",
+            "status": "Unknown",
+            "children": {
+                "collection": {
+                    "name": "collection",
+                    "url": "https://botticelli.in/collection",
+                    "status": "not connected",
+                    "children": {
+                        "shirts": {
+                            "name": "shirts",
+                            "url": "https://botticelli.in/collection/shirts",
+                            "status": "Unknown",
+                            "children": {
+                                "checked": {
+                                    "name": "checked",
+                                    "url": "https://botticelli.in/collection/shirts/checked",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "sandal-and-navy-check-shirt": {
+                                            "name": "sandal-and-navy-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/sandal-and-navy-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "blue-check-shirt": {
+                                            "name": "blue-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/blue-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "khaki-check-shirt": {
+                                            "name": "khaki-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/khaki-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "green-check-formal-shirt": {
+                                            "name": "green-check-formal-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/green-check-formal-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "blue-white-check-shirt": {
+                                            "name": "blue-white-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/blue-white-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "ramar-blue-check-shirt": {
+                                            "name": "ramar-blue-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/ramar-blue-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "dark-blue-check-shirt": {
+                                            "name": "dark-blue-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/dark-blue-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "green-and-white-check-shirt": {
+                                            "name": "green-and-white-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/green-and-white-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "orange-check-shirt": {
+                                            "name": "orange-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/orange-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "sandal-and-white-check-shirt": {
+                                            "name": "sandal-and-white-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/sandal-and-white-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "coffee-colour-check-shirt": {
+                                            "name": "coffee-colour-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/coffee-colour-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "black-check-shirt": {
+                                            "name": "black-check-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/black-check-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "yellow-plaid-shirt": {
+                                            "name": "yellow-plaid-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/checked/yellow-plaid-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "striped": {
+                                    "name": "striped",
+                                    "url": "https://botticelli.in/collection/shirts/striped",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "grey-striped-shirt-for-men": {
+                                            "name": "grey-striped-shirt-for-men",
+                                            "url": "https://botticelli.in/collection/shirts/striped/grey-striped-shirt-for-men",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "green-striped-shirt": {
+                                            "name": "green-striped-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/striped/green-striped-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "blue-vertical-striped-shirt": {
+                                            "name": "blue-vertical-striped-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/striped/blue-vertical-striped-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "grey-vertical-striped-shirt": {
+                                            "name": "grey-vertical-striped-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/striped/grey-vertical-striped-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "maroon-striped-shirt": {
+                                            "name": "maroon-striped-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/striped/maroon-striped-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "blue-striped-shirt-for-men": {
+                                            "name": "blue-striped-shirt-for-men",
+                                            "url": "https://botticelli.in/collection/shirts/striped/blue-striped-shirt-for-men",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "sandal-vertical-striped-shirt": {
+                                            "name": "sandal-vertical-striped-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/striped/sandal-vertical-striped-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "blue-and-grey-striped-shirt": {
+                                            "name": "blue-and-grey-striped-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/striped/blue-and-grey-striped-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "printed": {
+                                    "name": "printed",
+                                    "url": "https://botticelli.in/collection/shirts/printed",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "blue-printed-shirt": {
+                                            "name": "blue-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/blue-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "light-blue-printed-shirt": {
+                                            "name": "light-blue-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/light-blue-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "green-printed-shirt": {
+                                            "name": "green-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/green-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "grey-printed-shirt": {
+                                            "name": "grey-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/grey-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "dark-blue-printed-shirt": {
+                                            "name": "dark-blue-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/dark-blue-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "sandal-printed-shirt": {
+                                            "name": "sandal-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/sandal-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "dark-blue-formal-shirt": {
+                                            "name": "dark-blue-formal-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/dark-blue-formal-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "brown-printed-shirt": {
+                                            "name": "brown-printed-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/printed/brown-printed-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "party-wear": {
+                                    "name": "party-wear",
+                                    "url": "https://botticelli.in/collection/shirts/party-wear",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "black-designer-shirt": {
+                                            "name": "black-designer-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/black-designer-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "ice-blue-shirt": {
+                                            "name": "ice-blue-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/ice-blue-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "violet-party-wear-shirt": {
+                                            "name": "violet-party-wear-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/violet-party-wear-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "light-yellow-shirt": {
+                                            "name": "light-yellow-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/light-yellow-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "chinese-collar-khaki-party-wear-shirt": {
+                                            "name": "chinese-collar-khaki-party-wear-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/chinese-collar-khaki-party-wear-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "ice-green-shirt": {
+                                            "name": "ice-green-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/ice-green-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "olive-green-party-wear-shirt": {
+                                            "name": "olive-green-party-wear-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/olive-green-party-wear-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        },
+                                        "blue-abstract-print-shirt": {
+                                            "name": "blue-abstract-print-shirt",
+                                            "url": "https://botticelli.in/collection/shirts/party-wear/blue-abstract-print-shirt",
+                                            "status": "not connected",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "comments": {
+                    "name": "comments",
+                    "url": "https://botticelli.in/comments",
+                    "status": "Unknown",
+                    "children": {
+                        "feed": {
+                            "name": "feed",
+                            "url": "https://botticelli.in/comments/feed",
+                            "status": 200,
+                            "children": {}
+                        }
+                    }
+                },
+                "date-night-outfit": {
+                    "name": "date-night-outfit",
+                    "url": "https://botticelli.in/date-night-outfit",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "collections": {
+                    "name": "collections",
+                    "url": "https://botticelli.in/collections",
+                    "status": "Unknown",
+                    "children": {
+                        "shirts": {
+                            "name": "shirts",
+                            "url": "https://botticelli.in/collections/shirts",
+                            "status": "not connected",
+                            "children": {
+                                "party-wear": {
+                                    "name": "party-wear",
+                                    "url": "https://botticelli.in/collections/shirts/party-wear",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "printed": {
+                                    "name": "printed",
+                                    "url": "https://botticelli.in/collections/shirts/printed",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "striped": {
+                                    "name": "striped",
+                                    "url": "https://botticelli.in/collections/shirts/striped",
+                                    "status": "not connected",
+                                    "children": {}
+                                },
+                                "checked": {
+                                    "name": "checked",
+                                    "url": "https://botticelli.in/collections/shirts/checked",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "refund_returns-policy": {
+                    "name": "refund_returns-policy",
+                    "url": "https://botticelli.in/refund_returns-policy",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "wedding-shirts-for-men": {
+                    "name": "wedding-shirts-for-men",
+                    "url": "https://botticelli.in/wedding-shirts-for-men",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "wp-content": {
+                    "name": "wp-content",
+                    "url": "https://botticelli.in/wp-content",
+                    "status": "Unknown",
+                    "children": {
+                        "themes": {
+                            "name": "themes",
+                            "url": "https://botticelli.in/wp-content/themes",
+                            "status": "Unknown",
+                            "children": {
+                                "ecomus": {
+                                    "name": "ecomus",
+                                    "url": "https://botticelli.in/wp-content/themes/ecomus",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "assets": {
+                                            "name": "assets",
+                                            "url": "https://botticelli.in/wp-content/themes/ecomus/assets",
+                                            "status": "Unknown",
+                                            "children": {
+                                                "fonts": {
+                                                    "name": "fonts",
+                                                    "url": "https://botticelli.in/wp-content/themes/ecomus/assets/fonts",
+                                                    "status": "Unknown",
+                                                    "children": {
+                                                        "i7dMIFdwYjGaAMFtZd_QA1ZeUFuaHjyV.woff2": {
+                                                            "name": "i7dMIFdwYjGaAMFtZd_QA1ZeUFuaHjyV.woff2",
+                                                            "url": "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dMIFdwYjGaAMFtZd_QA1ZeUFuaHjyV.woff2",
+                                                            "status": "not connected",
+                                                            "children": {}
+                                                        },
+                                                        "i7dOIFdwYjGaAMFtZd_QA1ZVYFeCGg.woff2": {
+                                                            "name": "i7dOIFdwYjGaAMFtZd_QA1ZVYFeCGg.woff2",
+                                                            "url": "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dOIFdwYjGaAMFtZd_QA1ZVYFeCGg.woff2",
+                                                            "status": "not connected",
+                                                            "children": {}
+                                                        },
+                                                        "i7dOIFdwYjGaAMFtZd_QA1ZbYFc.woff2": {
+                                                            "name": "i7dOIFdwYjGaAMFtZd_QA1ZbYFc.woff2",
+                                                            "url": "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dOIFdwYjGaAMFtZd_QA1ZbYFc.woff2",
+                                                            "status": "not connected",
+                                                            "children": {}
+                                                        },
+                                                        "i7dMIFdwYjGaAMFtZd_QA1ZeUFWaHg.woff2": {
+                                                            "name": "i7dMIFdwYjGaAMFtZd_QA1ZeUFWaHg.woff2",
+                                                            "url": "https://botticelli.in/wp-content/themes/ecomus/assets/fonts/i7dMIFdwYjGaAMFtZd_QA1ZeUFWaHg.woff2",
+                                                            "status": 200,
+                                                            "children": {}
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "my-account": {
+                    "name": "my-account",
+                    "url": "https://botticelli.in/my-account",
+                    "status": "not connected",
+                    "children": {
+                        "lost-password": {
+                            "name": "lost-password",
+                            "url": "https://botticelli.in/my-account/lost-password",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                },
+                "blog": {
+                    "name": "blog",
+                    "url": "https://botticelli.in/blog",
+                    "status": "not connected",
+                    "children": {
+                        "shirts-for-tall-men": {
+                            "name": "shirts-for-tall-men",
+                            "url": "https://botticelli.in/blog/shirts-for-tall-men",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "shirt-for-your-body-shape": {
+                            "name": "shirt-for-your-body-shape",
+                            "url": "https://botticelli.in/blog/shirt-for-your-body-shape",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "classic-oxford-shirt": {
+                            "name": "classic-oxford-shirt",
+                            "url": "https://botticelli.in/blog/classic-oxford-shirt",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "check-shirt-combination": {
+                            "name": "check-shirt-combination",
+                            "url": "https://botticelli.in/blog/check-shirt-combination",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "category": {
+                            "name": "category",
+                            "url": "https://botticelli.in/blog/category",
+                            "status": "Unknown",
+                            "children": {
+                                "lifestyle": {
+                                    "name": "lifestyle",
+                                    "url": "https://botticelli.in/blog/category/lifestyle",
+                                    "status": "not connected",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "check-shirts": {
+                            "name": "check-shirts",
+                            "url": "https://botticelli.in/blog/check-shirts",
+                            "status": "not connected",
+                            "children": {}
+                        },
+                        "striped-shirt-fabrics": {
+                            "name": "striped-shirt-fabrics",
+                            "url": "https://botticelli.in/blog/striped-shirt-fabrics",
+                            "status": "not connected",
+                            "children": {}
+                        }
+                    }
+                },
+                "sandal-shirts": {
+                    "name": "sandal-shirts",
+                    "url": "https://botticelli.in/sandal-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "maroon-shirts": {
+                    "name": "maroon-shirts",
+                    "url": "https://botticelli.in/maroon-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "terms-conditions": {
+                    "name": "terms-conditions",
+                    "url": "https://botticelli.in/terms-conditions",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "dark-colour-shirts": {
+                    "name": "dark-colour-shirts",
+                    "url": "https://botticelli.in/dark-colour-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "pink-shirts": {
+                    "name": "pink-shirts",
+                    "url": "https://botticelli.in/pink-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "shipping-policy": {
+                    "name": "shipping-policy",
+                    "url": "https://botticelli.in/shipping-policy",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "wp-json": {
+                    "name": "wp-json",
+                    "url": "https://botticelli.in/wp-json",
+                    "status": "not connected",
+                    "children": {
+                        "wp": {
+                            "name": "wp",
+                            "url": "https://botticelli.in/wp-json/wp",
+                            "status": "Unknown",
+                            "children": {
+                                "v2": {
+                                    "name": "v2",
+                                    "url": "https://botticelli.in/wp-json/wp/v2",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "pages": {
+                                            "name": "pages",
+                                            "url": "https://botticelli.in/wp-json/wp/v2/pages",
+                                            "status": "Unknown",
+                                            "children": {
+                                                "113": {
+                                                    "name": "113",
+                                                    "url": "https://botticelli.in/wp-json/wp/v2/pages/113",
+                                                    "status": "not connected",
+                                                    "children": {}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "oembed": {
+                            "name": "oembed",
+                            "url": "https://botticelli.in/wp-json/oembed",
+                            "status": "Unknown",
+                            "children": {
+                                "1.0": {
+                                    "name": "1.0",
+                                    "url": "https://botticelli.in/wp-json/oembed/1.0",
+                                    "status": "Unknown",
+                                    "children": {
+                                        "embed": {
+                                            "name": "embed",
+                                            "url": "https://botticelli.in/wp-json/oembed/1.0/embed",
+                                            "status": "Unknown",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "premium-black-shirts": {
+                    "name": "premium-black-shirts",
+                    "url": "https://botticelli.in/premium-black-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "green-shirts": {
+                    "name": "green-shirts",
+                    "url": "https://botticelli.in/green-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "red-shirts": {
+                    "name": "red-shirts",
+                    "url": "https://botticelli.in/red-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "premium-white-shirts": {
+                    "name": "premium-white-shirts",
+                    "url": "https://botticelli.in/premium-white-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "interview-shirts": {
+                    "name": "interview-shirts",
+                    "url": "https://botticelli.in/interview-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "festive-shirts-for-men": {
+                    "name": "festive-shirts-for-men",
+                    "url": "https://botticelli.in/festive-shirts-for-men",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "privacy-policy": {
+                    "name": "privacy-policy",
+                    "url": "https://botticelli.in/privacy-policy",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "weekend-shirts": {
+                    "name": "weekend-shirts",
+                    "url": "https://botticelli.in/weekend-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "brown-shirts": {
+                    "name": "brown-shirts",
+                    "url": "https://botticelli.in/brown-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "shop-cart": {
+                    "name": "shop-cart",
+                    "url": "https://botticelli.in/shop-cart",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "navy-blue-shirts": {
+                    "name": "navy-blue-shirts",
+                    "url": "https://botticelli.in/navy-blue-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "weekday-shirts": {
+                    "name": "weekday-shirts",
+                    "url": "https://botticelli.in/weekday-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "feed": {
+                    "name": "feed",
+                    "url": "https://botticelli.in/feed",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "wishlist": {
+                    "name": "wishlist",
+                    "url": "https://botticelli.in/wishlist",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "xmlrpc.php": {
+                    "name": "xmlrpc.php",
+                    "url": "https://botticelli.in/xmlrpc.php",
+                    "status": "Unknown",
+                    "children": {}
+                },
+                "pastel-color-shirts": {
+                    "name": "pastel-color-shirts",
+                    "url": "https://botticelli.in/pastel-color-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "contact-us": {
+                    "name": "contact-us",
+                    "url": "https://botticelli.in/contact-us",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "grey-shirts": {
+                    "name": "grey-shirts",
+                    "url": "https://botticelli.in/grey-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "about-us": {
+                    "name": "about-us",
+                    "url": "https://botticelli.in/about-us",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "semi-formal-shirts": {
+                    "name": "semi-formal-shirts",
+                    "url": "https://botticelli.in/semi-formal-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "office-wear-shirts": {
+                    "name": "office-wear-shirts",
+                    "url": "https://botticelli.in/office-wear-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "blue-shirts": {
+                    "name": "blue-shirts",
+                    "url": "https://botticelli.in/blue-shirts",
+                    "status": "not connected",
+                    "children": {}
+                },
+                "yellow-shirts-for-men": {
+                    "name": "yellow-shirts-for-men",
+                    "url": "https://botticelli.in/yellow-shirts-for-men",
+                    "status": "not connected",
+                    "children": {}
+                }
+            }
+        }
+    },
+    "other_links": {
+        "wpecomus.com": {
+            "name": "wpecomus.com",
+            "url": "https://wpecomus.com",
+            "status": "Unknown",
+            "children": {
+                "fashion": {
+                    "name": "fashion",
+                    "url": "https://wpecomus.com/fashion",
+                    "status": "Unknown",
+                    "children": {
+                        "categories": {
+                            "name": "categories",
+                            "url": "https://wpecomus.com/fashion/categories",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "www.googletagmanager.com": {
+            "name": "www.googletagmanager.com",
+            "url": "https://www.googletagmanager.com",
+            "status": "Unknown",
+            "children": {
+                "ns.html": {
+                    "name": "ns.html",
+                    "url": "https://www.googletagmanager.com/ns.html",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        },
+        "gmpg.org": {
+            "name": "gmpg.org",
+            "url": "https://gmpg.org",
+            "status": "Unknown",
+            "children": {
+                "xfn": {
+                    "name": "xfn",
+                    "url": "https://gmpg.org/xfn",
+                    "status": "Unknown",
+                    "children": {
+                        "11": {
+                            "name": "11",
+                            "url": "https://gmpg.org/xfn/11",
+                            "status": "Unknown",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "in.pinterest.com": {
+            "name": "in.pinterest.com",
+            "url": "https://in.pinterest.com",
+            "status": "Unknown",
+            "children": {
+                "botticelliofficial": {
+                    "name": "botticelliofficial",
+                    "url": "https://in.pinterest.com/botticelliofficial",
+                    "status": "Unknown",
+                    "children": {}
+                }
+            }
+        }
+    }
+}
